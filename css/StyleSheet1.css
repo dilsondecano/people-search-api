@@ -125,8 +125,11 @@ nav {
 #psa-find-email-address img,
 #psa-find-name-address img,
 #psa-find-phone-number img {
-    top: 85%;
+        top: 85%;
     width: 120px;
+    position: absolute;
+    transform: translate(-50%, -50%) !important;
+    left: 100% !important;
 }
 
 nav #searchbug-logo {
@@ -613,6 +616,10 @@ nav #user-icon {
     list-style-image: url(/images/green-check-icon.png);
 }
 
+.container.position-relative {
+    position: relative;
+}
+
 @media (max-width: 576px) {
     #people-search-api-hero h1 {
         font-size: 26px;
@@ -659,14 +666,16 @@ nav #user-icon {
     #psa-find-phone-number img {
         top: 0%;
         width: 120px;
-        left: 86% !important
+        left: 86% !important;
+            position: absolute;
+    transform: translate(-50%, -50%) !important;
     }
 
     .psa-cta {
         display: none
     }
 
-     
+    
 }
 
 @media (max-width: 991px) {
