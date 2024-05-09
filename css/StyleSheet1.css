@@ -623,6 +623,15 @@ nav #user-icon {
     position: relative;
 }
 
+#ao-watch-videos .container {
+	position: relative
+}
+
+#ao-youtube-play-icon {
+	position: absolute;
+	right: 0 !important;
+}
+
 @media (max-width: 576px) {
     #people-search-api-hero h1 {
         font-size: 26px;
