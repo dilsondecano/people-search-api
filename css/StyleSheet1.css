@@ -570,6 +570,7 @@ nav #user-icon {
 
 #ao-watch-videos #img-watch-videos {
     width: 450px;
+	 cursor: pointer
 }
 
 #ao-watch-videos span {
