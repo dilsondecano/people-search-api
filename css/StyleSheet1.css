@@ -488,6 +488,21 @@ nav #user-icon {
     width: 90px;
 }
 
+#ao-card-carousel img.imgleft {
+    position: absolute;
+    left: -760px;
+}
+
+#ao-card-carousel img.imgright {
+    position: absolute;
+    right: -600px;
+}
+
+#ao-card-carousel .container {
+    overflow: hidden;
+    position: relative
+}
+
 #ao-card-carousel h5.card-title {
     color: #505050;
     font-size: 26px;
