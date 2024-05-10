@@ -644,6 +644,18 @@ nav #user-icon {
 	right: 0 !important;
 }
 
+#exampleModalCenter .modal-content {
+    box-shadow: none !important;
+}
+
+#exampleModalCenter .modal-body {
+    transform: scale(1.5);
+}
+
+#exampleModalCenter .modal-header {
+    border-bottom: none !important
+}
+
 @media (max-width: 576px) {
     #people-search-api-hero h1 {
         font-size: 26px;
