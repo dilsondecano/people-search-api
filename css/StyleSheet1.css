@@ -484,10 +484,6 @@ nav #user-icon {
     color: var(--clr-orange)
 }
 
-#ao-card-carousel img {
-    width: 90px;
-}
-
 #ao-card-carousel img.imgleft {
     position: absolute;
     left: -760px;
