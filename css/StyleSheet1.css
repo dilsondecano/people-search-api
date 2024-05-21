@@ -931,51 +931,51 @@ div#sb-adi-laptop {
     border: 3px solid #fff;
 }
 
-#afva-hero #afva-hero-magnifying-glass {
+#apva-hero #apva-hero-magnifying-glass {
     transform: rotate(20deg) scaleX(-1)
 }
 
 
-#afva-hero #afva-hero-phone {
+#apva-hero #apva-hero-phone {
     margin-top: -100px;
 }
 
 
 
-#afva-hero h1 {
+#apva-hero h1 {
     font-size: 42px;
     font-weight: bold;
     color: var(--clr-orange);
 }
 
-#afva-hero h2 {
+#apva-hero h2 {
     font-size: 73px;
     font-weight: bold;
     color: #373737;
 }
 
-#afva-hero p {
+#apva-hero p {
     color: #505050
 }
 
-.container.afva-cta > div {
+.container.apva-cta > div {
     background: #fff;
     border-radius: 16px;
     border: 2px solid var(--clr-orange);
     padding: 20px 60px;
 }
 
-.container.afva-cta h2 {
+.container.apva-cta h2 {
     color: var(--clr-orange);
     font-size: 26px !important;
     font-weight: 700
 }
 
-#afva-cta {
+#apva-cta {
     background: #ededed
 }
 
-.container.afva-cta h3 {
+.container.apva-cta h3 {
     font-size: 34px !important;
     font-weight: 700
 }
@@ -986,14 +986,14 @@ div#sb-adi-laptop {
     border-radius: 16px
 }
 
-#afva-identify-phone-num h2 {
+#apva-identify-phone-num h2 {
     font-weight: 700;
     font-size: 26px;
     color: #505050
 }
 
 
-#afva-identify-phone-num p {
+#apva-identify-phone-num p {
     font-size: 20px;
     color: #505050;
 }
@@ -1037,45 +1037,45 @@ div#sb-adi-laptop {
         border: none;
     }
 
-#afva-cpra .afva-input-radio, #afva-cpra .afva-api-type h3, #afva-cpra #afva-records-per-month {
+#apva-cpra .apva-input-radio, #apva-cpra .apva-api-type h3, #apva-cpra #apva-records-per-month {
     font-size: 20px;
     color: #505050;
     font-weight: 700
 }
 
-#afva-cpra li {
+#apva-cpra li {
     list-style: none
 }
 
-#afva-cpra input[type = "radio"]:checked + label {
+#apva-cpra input[type = "radio"]:checked + label {
     color: var(--clr-orange)
     
 }
 
-#afva-cpra .afva-input-radio {
-    
+#apva-cpra .apva-input-radio {
+
     text-wrap: nowrap;
 }
 
-#afva-sst-header, #afva-at-header {
+#apva-sst-header, #apva-at-header {
     font-size: 20px;
     font-weight: 700;
     color: #505050;
     text-align: left
 }
 
-#afva-at-header {
+#apva-at-header {
     margin-top: 30px
 }
 
-    #afva-cpra h2 {
+    #apva-cpra h2 {
         font-size: 42px;
         font-weight: 700;
         text-align: center;
         color: var(--clr-orange);
     }
 
-#afva-cpra #eyc-header {
+#apva-cpra #eyc-header {
     font-size: 26px;
     font-weight: 700;
     text-align: center;
@@ -1083,7 +1083,7 @@ div#sb-adi-laptop {
     margin-top: 40px
 }
 
-#afva-records-per-month input[type="text"] {
+#apva-records-per-month input[type="text"] {
     width: 600px;
     max-width: 100%;
     border-radius: 16px;
@@ -1092,12 +1092,12 @@ div#sb-adi-laptop {
     margin: 0 30px;
 }
 
-#afva-cpra table {
+#apva-cpra table {
     margin: 60px 0;
     
 }
 
-#afva-cpra th {
+#apva-cpra th {
     background: var(--clr-orange);
     color: #fff;
     font-weight: 700;
@@ -1106,7 +1106,7 @@ div#sb-adi-laptop {
     border-radius: 16px 16px 0 0;
 }
 
-#afva-cpra td {
+#apva-cpra td {
     background: #ededed;
     color: #6f6f6f;
     font-weight: 700;
@@ -1151,12 +1151,12 @@ div#sb-adi-laptop {
     border: 1px solid #fff;
 }
 
-#afva-faq {
+#apva-faq {
     background: #FDF5E7
 }
 
 
-    #afva-faq h2 {
+    #apva-faq h2 {
         font-size: 42px;
         font-weight: 700;
         color: #505050;
@@ -1165,23 +1165,23 @@ div#sb-adi-laptop {
         margin-bottom: 30px;
     }
 
-#afva-faq li {
+#apva-faq li {
     margin-top: 12px;
     list-style-image: url(/images/arrow-icon.png);
 }
 
-#afva-carousel {
+#apva-carousel {
     background: #ededed;
 }
 
-    #afva-carousel h2 {
+    #apva-carousel h2 {
         color: #505050;
         font-size: 26px;
         font-weight: 700;
         text-wrap: nowrap
     }
 
-    #afva-carousel button {
+    #apva-carousel button {
         
         font-size: 16px;
         font-weight: 700;
@@ -1190,7 +1190,7 @@ div#sb-adi-laptop {
         color: var(--clr-orange)
     }
 
-    #afva-carousel .col-md div {
+    #apva-carousel .col-md div {
         background: white;
         padding: 24px;
         border-radius: 16px;
@@ -1203,88 +1203,88 @@ div#sb-adi-laptop {
     
 
 
-#afva-dnc-list {
+#apva-dnc-list {
     background: #fdf5e7
 }
 
-#afva-dnc-list p {
+#apva-dnc-list p {
     color: #373737;
     font-size: 20px;
 }
 
-#afva-dnc-list #afva-dnc-list-map {
+#apva-dnc-list #apva-dnc-list-map {
     position: relative
 }
 
 
 
-.afva-dnc-check-icon-wa {
+.apva-dnc-check-icon-wa {
     position: absolute;
     top: 26px;
     left: 194px;
 }
 
-.afva-dnc-check-icon-wy {
+.apva-dnc-check-icon-wy {
     position: absolute;
     top: 177px;
     left: 366px;
 }
 
-.afva-dnc-check-icon-co {
+.apva-dnc-check-icon-co {
     position: absolute;
     top: 229px;
     left: 455px;
 }
 
-.afva-dnc-check-icon-ok {
+.apva-dnc-check-icon-ok {
     position: absolute;
     top: 339px;
     left: 584px;
 }
 
-.afva-dnc-check-icon-tx {
+.apva-dnc-check-icon-tx {
     position: absolute;
     top: 427px;
     left: 596px;
 }
 
-.afva-dnc-check-icon-ms {
+.apva-dnc-check-icon-ms {
     position: absolute;
     top: 386px;
     left: 700px;
 }
 }
 
-.afva-dnc-check-icon-tn {
+.apva-dnc-check-icon-tn {
     position: absolute;
     top: 289px;
     left: 769px;
 }
 
-.afva-dnc-check-icon-inmi {
+.apva-dnc-check-icon-inmi {
     position: absolute;
     top: 111px;
     left: 944px
 }
 
-.afva-dnc-check-icon-pa {
+.apva-dnc-check-icon-pa {
     position: absolute;
     top: 162px;
     left: 829px;
 }
 
-.afva-dnc-check-icon-fl {
+.apva-dnc-check-icon-fl {
     position: absolute;
     top: 462px;
     left: 877px;
 }
 
-.afva-dnc-check-icon-ma {
+.apva-dnc-check-icon-ma {
     position: absolute
 }
 
 
-#afva-dnc-list h2 {
+#apva-dnc-list h2 {
     color: #373737;
     font-size: 25px;
     font-weight: 700;
@@ -1292,228 +1292,281 @@ div#sb-adi-laptop {
     margin-bottom: 50px;
 }
 
-#afva-dnc-list div {
+#apva-dnc-list div {
     text-align: center;
     margin-bottom: 50px;
 }
 
-#afva-estimate-cost-verify-data h2 {
+#apva-estimate-cost-verify-data h2 {
     color: #505050;
     font-size: 42px;
     font-weight: 700;
 }
 
-    #afva-estimate-cost-verify-data h2 span {
+    #apva-estimate-cost-verify-data h2 span {
         color: var(--clr-orange);
     }
 
-#afva-estimate-cost-verify-data h3 {
+#apva-estimate-cost-verify-data h3 {
     color: #505050;
     font-size: 26px;
     
 }
-.afva-cta-btn-mobile {
+.apva-cta-btn-mobile {
     display: none;
 }
 
-.afva-cta-btn-desktop {
+.apva-cta-btn-desktop {
     display: block;
     margin: 0 auto
 }
 
+#apva-cpra label:hover {
+ 
+    cursor: pointer
+}
 
 
-@media (max-width: 576px) {
+.apva-api {
+    display: none
+}
 
-    #afva-faq h2 {
-        font-size: 26px;
-        border-bottom: 3px solid var(--clr-orange);
-    }
+.load-more-container {
+    background: #ededed;
+    text-align: center
+}
 
-    #afva-faq li {
-        font-size: 16px;
-    }
 
-    #afva-estimate-cost-verify-data {
-        display: none
-    }
+.load-more-container .load-more {
+    font-size: 26px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 30px 0;
+    color: #505050;
+    transition: 0.3s
+}
 
-    .btn-orange {
-        padding: 6px 30px;
-        border-radius: 9px;
-    }
-
-    .btn-gray {
-        padding: 6px 30px;
-        border-radius: 9px;
-    }
-
-    #afva-identify-phone-num h2 {
-        font-size: 20px;
-    }
-
-    #afva-identify-phone-num p {
-        font-size: 16px;
-        margin-top: 30px;
-    }
-
-    #afva-identify-phone-num .p-5 {
-        padding: 2rem 1rem !important
-    }
-
-    #afva-dnc-list h2 {
-        font-size: 20px;
-        text-align: left;
+    .load-more-container .load-more:hover {
+        color: var(--clr-orange);
         
     }
 
-    #afva-dnc-list p {
-        font-size: 16px;
-        text-align: left
-    }
-
-    #afva-records-per-month input[type="text"] {
-        margin: 0;
-    }
-
-    .afva-cta-btn-desktop {
-        display: none;
-    }
-
-    .afva-cta-btn-mobile {
-        display: block;
-    }
-
-    #people-search-api-hero h1 {
-        font-size: 26px;
-        text-align: left
-    }
-
-    #people-search-api-hero h2 {
-        font-size: 42px;
-        text-align: left
-    }
-
-    #people-search-api-hero p {
-        font-size: 18px;
-        text-align: left
-    }
-
-    #psa-aps-bat h3 {
-        font-size: 30px;
-    }
-
-    button.btn-orange, button.btn-gray {
-        font-size: 16px;
-    }
-
-    .col-md.psa-bat {
-        margin-top: 50px;
-    }
-
-    .heading-dark {
-        font-size: 30px;
-    }
-
-    #psa-faq h2 {
-        font-size: 25px;
-    }
-
-    #psa-property-records p, #psa-find-email-address p, #psa-find-name-address p, #psa-find-phone-number p, #psa-faq li {
-        font-size: 16px;
-    }
-
-    #psa-property-records img,
-    #psa-find-email-address img,
-    #psa-find-name-address img,
-    #psa-find-phone-number img {
-        top: 0%;
-        width: 120px;
-        left: 86% !important
-    }
-
-    .psa-cta {
-        display: none
-    }
-
-    #afva-cpra .row.afva-api-type {
-        background: #F4F5F5;
-        border-radius: 12px
-    }
 
 
-    #afva-cpra label {
-        font-weight: 400;
-        color: #505050;
-        display: block;
-        padding: 9px
-    }
 
-    #afva-cpra input[type=radio] {
-        display: none
-    }
 
-    #afva-cpra .afva-input-radio, #afva-cpra ul {
-        padding: 0px
-    }
+        @media (max-width: 576px) {
 
-    #afva-cpra input[type = "radio"]:checked + label {
-        background: #D4D3D2;
-        font-weight: 700;
-        color: #505050;
-        border-radius: 9px
-    }
+            #apva-cpra ul {
+                margin-bottom: 0
+            }
 
-    #afva-hero h1 {
-        font-size: 26px;
-        text-align: left
-    }
+            #apva-cpra th {
+                border-radius: 12px;
+                text-wrap: nowrap;
+            }
 
-    #afva-hero h2 {
-        font-size: 36px;
-        text-align: left
-    }
+            #apva-cpra td {
+                border-radius: 12px;
+                background: #fff;
+                border: 2px solid var(--clr-orange);
+                display: block;
+                margin-top: 18px;
+            }
 
-    #afva-hero p {
-        font-size: 16px;
-        text-align: left
-    }
 
-    #afva-cpra #eyc-header {
-        font-size: 26px;
-        color: var(--clr-orange);
-        text-align: left
-    }
 
-    #afva-cpra h2 {
-        display: none
-    }
+            #apva-cpra label:hover {
+                background: #D4D3D2;
+            }
 
-    #afva-cta h2 {
-        font-size: 20px !important;
-        text-align: left !important
-    }
+            #apva-faq h2 {
+                font-size: 26px;
+                border-bottom: 3px solid var(--clr-orange);
+            }
 
-    #afva-cta h3 {
-        font-size: 26px !important;
-        text-align: left !important;
-        text-transform: capitalize
+            #apva-faq li {
+                font-size: 16px;
+            }
 
-    }
-}
+            #apva-estimate-cost-verify-data {
+                display: none
+            }
 
-@media (max-width: 991px) {
-    .cost-estimate-form {
-        padding-bottom: 0px !important;
-    }
+            .btn-orange {
+                padding: 6px 30px;
+                border-radius: 9px;
+            }
 
-    #ao-use-batch-append-tool .container {
-        flex-direction: column;
-    }
+            .btn-gray {
+                padding: 6px 30px;
+                border-radius: 9px;
+            }
 
-    
+            #apva-identify-phone-num h2 {
+                font-size: 20px;
+            }
 
-    #afva-carousel .col-md {
-        margin-top: 30px;
-    }
-}
+            #apva-identify-phone-num p {
+                font-size: 16px;
+                margin-top: 30px;
+            }
+
+            #apva-identify-phone-num .p-5 {
+                padding: 2rem 1rem !important
+            }
+
+            #apva-dnc-list h2 {
+                font-size: 20px;
+                text-align: left;
+            }
+
+            #apva-dnc-list p {
+                font-size: 16px;
+                text-align: left
+            }
+
+            #apva-records-per-month input[type="text"] {
+                margin: 0;
+            }
+
+            .apva-cta-btn-desktop {
+                display: none;
+            }
+
+            .apva-cta-btn-mobile {
+                display: block;
+            }
+
+            #people-search-api-hero h1 {
+                font-size: 26px;
+                text-align: left
+            }
+
+            #people-search-api-hero h2 {
+                font-size: 42px;
+                text-align: left
+            }
+
+            #people-search-api-hero p {
+                font-size: 18px;
+                text-align: left
+            }
+
+            #psa-aps-bat h3 {
+                font-size: 30px;
+            }
+
+            button.btn-orange, button.btn-gray {
+                font-size: 16px;
+            }
+
+            .col-md.psa-bat {
+                margin-top: 50px;
+            }
+
+            .heading-dark {
+                font-size: 30px;
+            }
+
+            #psa-faq h2 {
+                font-size: 25px;
+            }
+
+            #psa-property-records p, #psa-find-email-address p, #psa-find-name-address p, #psa-find-phone-number p, #psa-faq li {
+                font-size: 16px;
+            }
+
+            #psa-property-records img,
+            #psa-find-email-address img,
+            #psa-find-name-address img,
+            #psa-find-phone-number img {
+                top: 0%;
+                width: 120px;
+                left: 86% !important
+            }
+
+            .psa-cta {
+                display: none
+            }
+
+            #apva-cpra .row.apva-api-type {
+                background: #F4F5F5;
+                border-radius: 12px
+            }
+
+
+            #apva-cpra label {
+                font-weight: 400;
+                color: #505050;
+                display: block;
+                padding: 3px 0px 3px 18px;
+            }
+
+            #apva-cpra input[type=radio] {
+                display: none
+            }
+
+            #apva-cpra .apva-input-radio, #apva-cpra ul {
+                padding: 0px
+            }
+
+            #apva-cpra input[type = "radio"]:checked + label {
+                background: #D4D3D2;
+                font-weight: 700;
+                color: #505050;
+                border-radius: 9px
+            }
+
+            #apva-hero h1 {
+                font-size: 26px;
+                text-align: left
+            }
+
+            #apva-hero h2 {
+                font-size: 36px;
+                text-align: left
+            }
+
+            #apva-hero p {
+                font-size: 16px;
+                text-align: left
+            }
+
+            #apva-cpra #eyc-header {
+                font-size: 26px;
+                color: var(--clr-orange);
+                text-align: left
+            }
+
+            #apva-cpra h2 {
+                display: none
+            }
+
+            #apva-cta h2 {
+                font-size: 20px !important;
+                text-align: left !important
+            }
+
+            #apva-cta h3 {
+                font-size: 26px !important;
+                text-align: left !important;
+                text-transform: capitalize
+            }
+        }
+
+        @media (max-width: 991px) {
+            .cost-estimate-form {
+                padding-bottom: 0px !important;
+            }
+
+            #ao-use-batch-append-tool .container {
+                flex-direction: column;
+            }
+
+
+
+            #apva-carousel .col-md {
+                margin-top: 30px;
+            }
+        }
