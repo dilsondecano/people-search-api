@@ -16,6 +16,11 @@
     padding: 75px 0px;
 }
 
+#apva-carousel .owl-dots {
+    display: none;
+}
+
+
 .padding-lf-8 {
     padding: 0 8%;
 }
