@@ -228,7 +228,7 @@ nav #user-icon {
 
 
 #psa-faq ul li {
-    list-style-image: url('/images/arrow-icon.png');
+    list-style-image: url('https://dilsondecano.github.io/people-search-api/images/arrow-icon.png');
     margin: 12px 0
 }
 
@@ -820,12 +820,12 @@ button.btn-most-recommended-dnone {
     font-weight: 700;
 }
 #pv-advanced-pricing-list li {
-    list-style-image: url(/images/orange-check-icon.png);
+    list-style-image: url(https://dilsondecano.github.io/people-search-api/images/orange-check-icon.png);
     color: #fff
 }
 
 #pv-advanceddnc-pricing-list li, #pv-basic-pricing-list li, #pv-complete-pricing-list li {
-    list-style-image: url(/images/green-check-icon.png);
+    list-style-image: url(https://dilsondecano.github.io/people-search-api/images/green-check-icon.png);
     color: #fff
 }
 
@@ -862,7 +862,7 @@ button.btn-most-recommended-dnone {
     font-weight: 700;
 }
 
-
+/*
 .owl-carousel img {
     width: 120px !important;
 }
@@ -878,6 +878,8 @@ button.btn-most-recommended-dnone {
         position: absolute;
         top: 50%;
     }
+
+    */
 
 #ao-sb-adi {
     position: relative;
@@ -1011,30 +1013,45 @@ div#sb-adi-laptop {
      
     }
 
-    #phone-validator-table div {
-        text-align: center;
-    }
+.apva-pvt-white-bg {
+    color: #fff
+}
+.apva-pvt-nopad td {
+    padding-bottom: 12px !important;
+    padding-top: 0 !important;
+    
+}
 
-    #phone-validator-table .tableth-bground-white {
-        background: #fff
-    }
+#phone-validator-table div {
+    text-align: center;
+}
+
+#phone-validator-table .tableth-bground-white, .apva-pvt-white-bg {
+    background: #fff
+}
 
     #phone-validator-table thead tr th {
         background: #ececec;
-        border: 1px solid #fff;
+        
+        text-wrap: nowrap
     }
 
-    #phone-validator-table td, #phone-validator-table th {
-        padding: .55rem;
-        color: #505050
-    }
+th.apva-pvt-border {
+    border: solid 1px #fff
+}
 
-    #phone-validator-table button {
+#phone-validator-table td, #phone-validator-table th {
+    padding: .55rem;
+    color: #505050
+}
+
+    #phone-validator-table a {
         font-size: 14px;
         text-wrap: nowrap;
         background: var(--clr-orange);
         color: #fff;
         border: none;
+        padding: 1px 6px;
     }
 
 #apva-cpra .apva-input-radio, #apva-cpra .apva-api-type h3, #apva-cpra #apva-records-per-month {
@@ -1142,6 +1159,8 @@ div#sb-adi-laptop {
     background: #ededed
 }
 
+
+
 #phone-validator-table th {
     border-top: 1px solid #fff;
     border-bottom: 1px solid white;
@@ -1167,7 +1186,7 @@ div#sb-adi-laptop {
 
 #apva-faq li {
     margin-top: 12px;
-    list-style-image: url(/images/arrow-icon.png);
+    list-style-image: url(https://dilsondecano.github.io/people-search-api/images/arrow-icon.png);
 }
 
 #apva-carousel {
@@ -1176,12 +1195,12 @@ div#sb-adi-laptop {
 
     #apva-carousel h2 {
         color: #505050;
-        font-size: 26px;
+        font-size: 23px;
         font-weight: 700;
         text-wrap: nowrap
     }
 
-    #apva-carousel button {
+    #apva-carousel a {
         
         font-size: 16px;
         font-weight: 700;
@@ -1327,9 +1346,7 @@ div#sb-adi-laptop {
 }
 
 
-.apva-api {
-    
-}
+
 
 .load-more-container {
     background: #ededed;
@@ -1351,6 +1368,28 @@ div#sb-adi-laptop {
         
     }
 
+
+
+#ipa-hero h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--clr-orange);
+}
+
+#ipa-hero span {
+    color: var(--clr-orange);
+}
+
+#ipa-hero h3 {
+    font-size: 73px;
+    font-weight: 700;
+    color: #505050;
+}
+
+#ipa-hero p {
+    font-size: 20px;
+    color: #505050;
+}
 
 
 
