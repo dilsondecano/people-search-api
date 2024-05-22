@@ -1401,6 +1401,14 @@ th.apva-pvt-border {
 
         @media (max-width: 576px) {
 
+            #apva-carousel h2 {
+    font-size: 20px;
+}
+
+#apva-carousel a {
+    font-size: 12px;
+}
+
             #apva-cpra ul {
                 margin-bottom: 0
             }
