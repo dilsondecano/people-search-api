@@ -1037,8 +1037,8 @@ div#sb-adi-laptop {
 
     #phone-validator-table thead tr th {
         background: #ececec;
-        
-        text-wrap: nowrap
+        text-wrap: nowrap;
+        text-align: center;
     }
 
 th.apva-pvt-border {
