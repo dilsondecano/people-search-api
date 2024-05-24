@@ -1050,14 +1050,22 @@ th.apva-pvt-border {
     color: #505050
 }
 
-    #phone-validator-table a {
+        #phone-validator-table a {
         font-size: 14px;
         text-wrap: nowrap;
         background: var(--clr-orange);
         color: #fff;
         border: none;
         padding: 1px 6px;
+        transition: 0.3s
     }
+
+#phone-validator-table a:hover {
+        
+    background: #505050;
+    text-decoration: none;
+    
+}
 
 #apva-cpra .apva-input-radio, #apva-cpra .apva-api-type h3, #apva-cpra #apva-records-per-month {
     font-size: 20px;
