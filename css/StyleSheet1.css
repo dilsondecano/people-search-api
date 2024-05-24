@@ -1057,7 +1057,8 @@ th.apva-pvt-border {
         color: #fff;
         border: none;
         padding: 1px 6px;
-        transition: 0.3s
+        transition: 0.3s;
+        border-radius: 6px;
     }
 
 #phone-validator-table a:hover {
