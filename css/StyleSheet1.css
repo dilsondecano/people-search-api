@@ -1675,22 +1675,40 @@ th.apva-pvt-border {
     position: absolute !important;
 }
 
+#phone-validator-table .container {
+    position: relative;
+}
+
 .pvt-mail-icon {
-    width: 120px;
+    width: 90px;
+    position: absolute;
+    left: -82px;
+    bottom: 30px;
 }
 
 .pvt-pin-icon {
-    width: 120px;
+    width: 90px;
+    position: absolute;
+    left: -65px;
+    bottom: 0;
+    top: 35%;
 }
 
 .pvt-clock-icon {
     width: 120px;
+    position: absolute;
+    right: -150px;
+    bottom: 0;
+    top: 20%;
 }
 
 .pvt-message-icon {
     width: 120px;
+    position: absolute;
+    right: -90px;
+    bottom: 0;
+    top: 75%;
 }
-
 @media (max-width: 576px) {
     #eva-faq h2 {
         font-size: 26px;
