@@ -1675,6 +1675,22 @@ th.apva-pvt-border {
     position: absolute !important;
 }
 
+.pvt-mail-icon {
+    width: 120px;
+}
+
+.pvt-pin-icon {
+    width: 120px;
+}
+
+.pvt-clock-icon {
+    width: 120px;
+}
+
+.pvt-message-icon {
+    width: 120px;
+}
+
 @media (max-width: 576px) {
     #eva-faq h2 {
         font-size: 26px;
