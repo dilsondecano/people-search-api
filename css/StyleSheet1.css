@@ -1709,7 +1709,21 @@ th.apva-pvt-border {
     bottom: 0;
     top: 75%;
 }
+
+#phone-validator-table h2 {
+    display: none
+}
+
 @media (max-width: 576px) {
+
+       #phone-validator-table h2 {
+       display: block;
+       font-size: 26px;
+       font-weight: 700;
+       color: #fff;
+       text-align: left;
+       margin-bottom: 21px;
+   }
     #eva-faq h2 {
         font-size: 26px;
         border-bottom: 3px solid var(--clr-orange);
