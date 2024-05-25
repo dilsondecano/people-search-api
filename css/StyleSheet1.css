@@ -1716,6 +1716,14 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
+    .pvt-clock-icon {
+    width: 90px;
+    right: 12px;
+    bottom: 0;
+    top: -39px;
+}
+
+
        #phone-validator-table h2 {
        display: block;
        font-size: 26px;
