@@ -1414,8 +1414,6 @@ th.apva-pvt-border {
         
     }
 
-
-
 #ipa-hero h2 {
     font-size: 42px;
     font-weight: 700;
@@ -1437,18 +1435,289 @@ th.apva-pvt-border {
     color: #505050;
 }
 
+#ipa-batch-append-tool h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #505050;
+}
+
+#ipa-batch-append-tool h3 {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--clr-orange);
+}
+
+#ipa-batch-append-tool .col-md-9 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container.ipa-cta > div {
+    background: #fff;
+    border-radius: 16px;
+    border: 2px solid var(--clr-orange);
+    padding: 20px 60px;
+}
+
+.container.ipa-cta h2 {
+    color: var(--clr-orange);
+    font-size: 26px !important;
+    font-weight: 700
+}
+
+#ipa-cta {
+    background: #ededed
+}
+
+.container.ipa-cta h3 {
+    font-size: 34px !important;
+    font-weight: 700
+}
 
 
+.ipa-cta-btn-mobile {
+    display: none;
+}
 
-        @media (max-width: 576px) {
+.ipa-cta-btn-desktop {
+    display: block;
+    margin: 0 auto
+}
 
-            #apva-carousel h2 {
+#ipa-faq {
+    background: #FFF9F6;
+}
+
+    #ipa-faq a {
+        color: var(--clr-orange);
+        text-decoration: none;
+        font-weight: 600
+    }
+
+        #ipa-faq a:hover {
+            text-decoration: underline;
+        }
+
+    #ipa-faq h2 {
+        font-size: 41px;
+        font-weight: 700
+    }
+
+    #ipa-faq > .container > div {
+        border: 2px solid var(--clr-orange);
+        padding: 50px 60px;
+        border-radius: 12px;
+    }
+
+    #ipa-faq li {
+        font-size: 20px;
+        color: var(--clr-text-color-2)
+    }
+
+    #ipa-faq .hr-line {
+        background: var(--clr-orange);
+        height: 4px
+    }
+
+    #ipa-faq ul li {
+        list-style-image: url('/images/arrow-icon.png');
+        margin: 12px 0
+    }
+
+    #ipa-get-info-need {
+        background: #ededed
+    }
+
+#ipa-get-info-need span {
+    color: var(--clr-orange);
+}
+
+#ipa-get-info-need h2 {
+    color: #505050;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#ipa-get-info-need h3 {
+    color: #505050;
+    font-size: 26px;
+}
+
+#ipa-customers-partners h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #505050;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+#eva-hero h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--clr-orange);
+}
+
+#eva-hero span {
+    color: var(--clr-orange);
+}
+
+#eva-hero h3 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #505050;
+}
+
+#eva-hero p {
     font-size: 20px;
+    color: #505050;
 }
 
-#apva-carousel a {
-    font-size: 12px;
+#eva-identify-email span {
+    color: var(--clr-orange);
 }
+
+#eva-identify-email h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+#eva-identify-email h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#eva-identify-email img {
+    height: 120px;
+}
+
+.container.eva-cta > div {
+    background: #fff;
+    border-radius: 16px;
+    border: 2px solid var(--clr-orange);
+    padding: 20px 60px;
+}
+
+.container.eva-cta h2 {
+    color: var(--clr-orange);
+    font-size: 26px !important;
+    font-weight: 700
+}
+
+#eva-cta {
+    background: #ededed
+}
+
+.container.eva-cta h3 {
+    font-size: 34px !important;
+    font-weight: 700
+}
+
+
+.eva-cta-btn-mobile {
+    display: none;
+}
+
+.eva-cta-btn-desktop {
+    display: block;
+    margin: 0 auto
+}
+
+#eva-faq {
+    background: #FDF5E7
+}
+
+    #eva-faq h2 {
+        font-size: 42px;
+        font-weight: 700;
+        color: #505050;
+        border-bottom: 4px solid var(--clr-orange);
+        padding-bottom: 18px;
+        margin-bottom: 30px;
+    }
+
+    #eva-faq li {
+        margin-top: 12px;
+        list-style-image: url(/images/arrow-icon.png);
+    }
+
+#eva-estimate-cost-verify-data h2 {
+    color: #505050;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+    #eva-estimate-cost-verify-data h2 span {
+        color: var(--clr-orange);
+    }
+
+#eva-estimate-cost-verify-data h3 {
+    color: #505050;
+    font-size: 26px;
+}
+
+#apva-cpra .container {
+    position: relative;
+}
+
+#apva-cpra img {
+    width: 220px;
+    top: 55%;
+    right: -193px !important;
+    position: absolute !important;
+}
+
+@media (max-width: 576px) {
+    #eva-faq h2 {
+        font-size: 26px;
+        border-bottom: 3px solid var(--clr-orange);
+    }
+
+    #eva-faq li {
+        font-size: 16px;
+    }
+
+
+    #apva-estimate-cost-verify-data {
+        display: none
+    }
+
+    .eva-cta-btn-desktop {
+        display: none;
+    }
+
+    .eva-cta-btn-mobile {
+        display: block;
+    }
+
+    #eva-cta h2 {
+        font-size: 20px !important;
+        text-align: left !important
+    }
+
+    #eva-cta h3 {
+        font-size: 26px !important;
+        text-align: left !important;
+        text-transform: capitalize
+    }
+
+
+
+    #apva-carousel h2 {
+                font-size: 20px;
+            }
+
+            #apva-carousel a {
+                font-size: 12px;
+            }
 
             #apva-cpra ul {
                 margin-bottom: 0
@@ -1531,6 +1800,16 @@ th.apva-pvt-border {
                 display: block;
             }
 
+    
+
+    .ipa-cta-btn-desktop {
+        display: none;
+    }
+
+    .ipa-cta-btn-mobile {
+        display: block;
+    }
+
             #people-search-api-hero h1 {
                 font-size: 26px;
                 text-align: left
@@ -1566,9 +1845,18 @@ th.apva-pvt-border {
                 font-size: 25px;
             }
 
-            #psa-property-records p, #psa-find-email-address p, #psa-find-name-address p, #psa-find-phone-number p, #psa-faq li {
-                font-size: 16px;
-            }
+    #ipa-faq h2 {
+        font-size: 25px;
+    }
+
+    #ipa-faq li {
+        font-size: 16px;
+    }
+
+
+    #psa-property-records p, #psa-find-email-address p, #psa-find-name-address p, #psa-find-phone-number p, #psa-faq li {
+        font-size: 16px;
+    }
 
             #psa-property-records img,
             #psa-find-email-address img,
