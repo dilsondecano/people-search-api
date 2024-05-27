@@ -1716,6 +1716,9 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
+    #apva-cta {
+    background: #fff;
+}
     .pvt-clock-icon {
     width: 90px;
     right: 12px;
