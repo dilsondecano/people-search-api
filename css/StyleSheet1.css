@@ -1729,6 +1729,7 @@ th.apva-pvt-border {
     .pvt-pin-icon {
         width: 55px;
         left: -18px;
+        top: 10%;
     }
        #phone-validator-table h2 {
        display: block;
