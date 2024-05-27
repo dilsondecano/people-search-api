@@ -1723,7 +1723,10 @@ th.apva-pvt-border {
     top: -39px;
 }
 
-
+    .pvt-pin-icon {
+        width: 55px;
+        left: -18px;
+    }
        #phone-validator-table h2 {
        display: block;
        font-size: 26px;
