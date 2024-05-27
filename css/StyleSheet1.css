@@ -1724,6 +1724,10 @@ th.apva-pvt-border {
 	font-size: 20px;
 }
 
+	#apva-estimate-cost-verify-data img {
+    width: 132px;
+}
+
     #apva-cta {
     background: #fff;
 }
