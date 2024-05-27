@@ -1716,6 +1716,14 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
+    #apva-estimate-cost-verify-data h2 {
+	font-size: 26px;
+}
+
+#apva-estimate-cost-verify-data p {
+	font-size: 20px;
+}
+
     #apva-cta {
     background: #fff;
 }
