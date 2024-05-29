@@ -228,7 +228,7 @@ nav #user-icon {
 
 
 #psa-faq ul li {
-    list-style-image: url('/images/arrow-icon.png');
+    list-style-image: url('https://dilsondecano.github.io/people-search-api/images/arrow-icon.png');
     margin: 12px 0
 }
 
@@ -820,12 +820,12 @@ button.btn-most-recommended-dnone {
     font-weight: 700;
 }
 #pv-advanced-pricing-list li {
-    list-style-image: url(/images/orange-check-icon.png);
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/orange-check-icon.png");
     color: #fff
 }
 
 #pv-advanceddnc-pricing-list li, #pv-basic-pricing-list li, #pv-complete-pricing-list li {
-    list-style-image: url(/images/green-check-icon.png);
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/green-check-icon.png");
     color: #fff
 }
 
@@ -1197,7 +1197,7 @@ th.apva-pvt-border {
 
 #apva-faq li {
     margin-top: 12px;
-    list-style-image: url(/images/arrow-icon.png);
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
 }
 
 #apva-carousel {
@@ -1518,7 +1518,7 @@ th.apva-pvt-border {
     }
 
     #ipa-faq ul li {
-        list-style-image: url('/images/arrow-icon.png');
+        list-style-image: url('https://dilsondecano.github.io/people-search-api/images/arrow-icon.png');
         margin: 12px 0
     }
 
@@ -1642,7 +1642,7 @@ th.apva-pvt-border {
 
     #eva-faq li {
         margin-top: 12px;
-        list-style-image: url(/images/arrow-icon.png);
+        list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
     }
 
 #eva-estimate-cost-verify-data h2 {
