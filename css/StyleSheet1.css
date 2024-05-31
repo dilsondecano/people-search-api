@@ -1917,6 +1917,10 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
+    #psa-people-search-api-list .p-5 {
+    padding: 30px !important
+}
+
         #psa-faq > .container > div {
        padding: 30px;
     }
