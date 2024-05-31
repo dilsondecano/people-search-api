@@ -152,6 +152,53 @@ nav {
     padding: 0 !important;
 }
 
+#psa-carousel .psa-carousel-card {
+    background: white;
+    border-radius: 16px;
+    margin: 5px 13px;
+    padding: 16px 16px;
+    height: 100%
+
+}
+
+#psa-carousel .owl-item.cloned, #psa-carousel .owl-item.active {
+    height: 400px;
+}
+
+.psa-carousel-card img {
+    width: 95px !important;
+}
+
+.psa-carousel-card a {
+    margin-top: auto;
+    font-weight: 700
+}
+
+.psa-carousel-card p {
+    
+}
+
+.psa-carousel-card div {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.psa-carousel-card div h2 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #505050
+}
+
+#psa-carousel .psa-carousel-card {
+    display: flex;
+    flex-direction: column;
+}
+
+#psa-carousel {
+    background: #ededed;
+}
+
 #psa-property-records img,
 #psa-find-email-address img,
 #psa-find-name-address img,
@@ -228,7 +275,7 @@ nav #user-icon {
 
 
 #psa-faq ul li {
-    list-style-image: url('https://dilsondecano.github.io/people-search-api/images/arrow-icon.png');
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
     margin: 12px 0
 }
 
@@ -238,7 +285,7 @@ nav #user-icon {
 }
 
 
-#psa-estimate-cost th {
+#psa-estimate-cost .psa-aeaa th {
     background: var(--clr-orange);
     color: #fff;
     border: 5px solid #fff;
@@ -246,7 +293,7 @@ nav #user-icon {
     font-size: 20px;
 }
 
-#psa-estimate-cost td {
+#psa-estimate-cost .psa-aeaa td {
     background: #FFF4E2 !important;
     color: #000;
     padding: 16px;
@@ -301,7 +348,7 @@ nav #user-icon {
         font-size: 20px;
         border: 2px solid #fff;
         padding: 9px 21px;
-        width: 60%;
+        
         margin: 0 30px;
     }
 
@@ -436,30 +483,14 @@ nav #user-icon {
 }
 
 
-#psa-estimate-cost input[type = "radio"] {
-    display: none
-}
-
-
 #psa-estimate-cost label {
     position: relative;
     padding: 12px;    
     border-radius: 12px;
-    display: flex;
     cursor: pointer;
     transition-duration: 0.3s
 }
 
-#psa-estimate-cost label:before {
-    content: "";
-    height: 7px;
-    width: 7px;
-    padding: 12px;
-    border-radius: 50% !important;
-    margin-right: 20px;
-    background: #fff;
-    border-radius: 12px;
-}
 
 
 #psa-estimate-cost input[type = "radio"]:checked + label {
@@ -1518,7 +1549,7 @@ th.apva-pvt-border {
     }
 
     #ipa-faq ul li {
-        list-style-image: url('https://dilsondecano.github.io/people-search-api/images/arrow-icon.png');
+        list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
         margin: 12px 0
     }
 
@@ -1664,11 +1695,15 @@ th.apva-pvt-border {
     position: relative;
 }
 
-#apva-cpra img {
+#apva-cpra .apva-phone-verification-api {
     width: 220px;
     top: 55%;
     right: -193px !important;
     position: absolute !important;
+}
+
+#apva-cpra .apva-chevron-up-solid {
+    width: 15px;
 }
 
 #phone-validator-table .container {
@@ -1864,7 +1899,148 @@ th.apva-pvt-border {
     justify-content: space-evenly;
 }
 
+#apva-sst-header-mobile div {
+    display: none
+}
+
+.psa-people-search-api-hero-mobile {
+    display: none
+}
+
+#psa-estimate-cost .psa-expected-cost-table, #psa-estimate-cost .psa-avg-match-rate-table {
+    display: none
+}
+
+#psa-records-per-month-mobile {
+    display: none
+}
+
 @media (max-width: 576px) {
+
+    #psa-estimate-cost input[type="text"] {
+        border-radius: 16px
+    }
+
+    #psa-estimate-cost .psa-estimate-cost-input {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 !important
+    }
+
+    .psa-xml-json-mobile a {
+        font-size: 16px !important
+    }
+
+    #psa-estimate-cost .psa-xml-json-mobile {
+        font-size: 16px;
+        margin: 0 3px;
+        font-weight: 400;
+    }
+
+    #psa-estimate-cost label {
+        padding: 3px;
+        font-weight: 500;
+    }
+
+    #psa-estimate-cost input[type = "radio"]:checked + label {
+        background: transparent;
+        font-weight: 700
+    }
+    #psa-estimate-cost .cost-estimate-form {
+        margin-top: 18px
+    }
+
+
+    #psa-records-per-month-mobile h3, #psa-records-per-month-mobile a {
+        font-size: 16px;
+    }
+
+    #psa-records-per-month-mobile > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #psa-records-per-month-mobile {
+        display: block;
+        font-size: 16px;
+        margin: 20px 0px 12px 0;
+    }
+
+    #psa-estimate-cost p {
+        display: none
+    }
+
+    #psa-estimate-cost .psa-expected-cost-table, #psa-estimate-cost .psa-avg-match-rate-table {
+        display: block
+    }
+
+        #psa-estimate-cost .psa-aeaa {
+            display: none
+        }
+
+        #psa-estimate-cost .psa-expected-cost-table td, #psa-estimate-cost .psa-avg-match-rate-table td,
+        #psa-estimate-cost .psa-expected-cost-table th, #psa-estimate-cost .psa-avg-match-rate-table th {
+            font-size: 16px;
+            text-wrap: nowrap
+        }
+
+    #psa-estimate-cost .psa-expected-cost-table th, #psa-estimate-cost .psa-avg-match-rate-table th {
+        background: var(--clr-orange);
+        color: #fff;
+        padding: 16px;
+        border: 5px solid #fff;
+        border-radius: 12px
+    }
+
+    #psa-estimate-cost .psa-expected-cost-table {
+        margin-top: 12px
+    }
+
+    #psa-estimate-cost .psa-expected-cost-table td, #psa-estimate-cost .psa-avg-match-rate-table td {
+        background: #fff;
+        color: #000;
+        padding: 16px;
+        border: 5px solid #fff;
+        border-radius: 12px;
+    }
+    
+
+    #psa-estimate-cost h2 {
+        font-size: 26px;
+    }
+
+    .psa-people-search-api-hero{
+        display: none
+    }
+
+    .psa-people-search-api-hero-mobile {
+        display: block;
+        width: 150px;
+        float: right;
+    }
+
+    #psa-carousel .owl-item.cloned, #psa-carousel .owl-item.active {
+        height: auto
+    }
+
+    #psa-carousel p {
+        font-size: 16px;
+    }
+
+
+    #apva-sst-header-mobile div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+
+        #apva-sst-header-mobile h3 {
+            font-size: 16px;
+            color: #505050;
+            font-weight: 700
+        }
+
 
     #eva-estimate-your-cost .eva-estimate-your-cost {
         background: #fff;
@@ -2101,7 +2277,7 @@ th.apva-pvt-border {
             }
 
             #people-search-api-hero h2 {
-                font-size: 42px;
+                font-size: 36px;
                 text-align: left
             }
 
@@ -2148,7 +2324,7 @@ th.apva-pvt-border {
             #psa-find-name-address img,
             #psa-find-phone-number img {
                 top: 0%;
-                width: 120px;
+                width: 110px;
                 left: 86% !important
             }
 
