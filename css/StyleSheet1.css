@@ -1917,6 +1917,9 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
+        #psa-faq > .container > div {
+       padding: 30px;
+    }
     #psa-estimate-cost input[type="text"] {
         border-radius: 16px
     }
