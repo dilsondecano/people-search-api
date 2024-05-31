@@ -595,6 +595,11 @@ nav #user-icon {
     transition: 0.3s
 }
 
+#ao-card-carousel a:hover {
+     color: #fff;
+     background: #373737;        
+}
+
 #ao-card-carousel a:hover .arrow-icon {
     transform: translateX(10px)
 }
