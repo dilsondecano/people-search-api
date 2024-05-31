@@ -4,9 +4,9 @@
 <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
 	Maximalist People Search API - My ASP.NET Application
 </title><script src="/Scripts/modernizr-2.8.3.js"></script>
-<link href="/Content/bootstrap.css" rel="stylesheet"/>
-<link href="/Content/Site.css" rel="stylesheet"/>
-<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="https://dilsondecano.github.io/people-search-api/Content/bootstrap.css" rel="stylesheet"/>
+<link href="https://dilsondecano.github.io/people-search-api/Content/Site.css" rel="stylesheet"/>
+<link href="https://dilsondecano.github.io/people-search-api/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <!-- jQuery and JS bundle w/ Popper.js -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -457,8 +457,13 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
 
         
             
-  <section id="people-search-api-hero" class="padding-tb-50 text-center">
+     <section id="people-search-api-hero" class="padding-tb-50 text-center">
     <div class="container">
+              <img
+        src="https://dilsondecano.github.io/people-search-api/images/people-search-api.png" class="psa-people-search-api-hero-mobile img-fluid"
+        alt="Alternate Text"
+        width="400" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-sine"data-aos-once="true"
+          />
       <h1 class="clr-orange">PEOPLE SEARCH APIS:</h1>
       <h2 class="clr-text-color-1">
         Find Contact Information <br />
@@ -468,93 +473,93 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
         <br />Search by phone number only, name and state, plus many other options.
       </p>
       <img
-        src="images/people-search-api.png"
+          class="psa-people-search-api-hero img-fluid"
+        src="https://dilsondecano.github.io/people-search-api/images/people-search-api.png"
         alt="Alternate Text"
         width="400"
-          class="img-fluid"/>
+          data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine"data-aos-once="true"
+          />
     </div>
   </section>
 
+         <!--  Sliding Carousel Section -->
+    <section id="psa-carousel" class="padding-tb-50">
 
-      <!-- Card Carousel Section -->
-<section id="psa-card-carousel" class="pt-5 pb-5 shadow-sm">
-  <div class="container">    
-    <div class="row">      
-      <div class="col-lg-3 mb-3 d-flex align-items-stretch">
-        <div class="card">
-          
-          <div class="card-body d-flex flex-column">
-      <div class="d-flex gap-3 align-items-center">
-<img src="images/api-cloud.png" class="img-fluid" />
-<h5 class="card-title">Find Phone <br />Number</h5>
-</div>
-            <p class="para-1 mt-3 card-text mb-1">This API makes it easy to get to phone numbers from street address, email address, name and address, name and city/state or name and state.</p>
-            <a href="#" class="btn mt-auto align-self-start see-more">See more <img src="images/arrow.png" class="arrow-icon" /></a>
-          </div>
-        </div>
-      </div>
-
-        <div class="col-lg-3 mb-3 d-flex align-items-stretch">
-  <div class="card">
+    <div class="container">
+  <div class="row owl-carousel">
     
-    <div class="card-body d-flex flex-column">
-      <div class="d-flex gap-3 align-items-center">
-<img src="images/api-cloud.png" class="img-fluid" />
-<h5 class="card-title">Find Email <br />Address</h5>
-</div>
-      <p class="para-1 mt-3 card-text mb-1">Our property data API is ideal for businesses needing the current contact information, such as the name and phone number of the current owner the property.</p>
-      <a href="#" class="btn mt-auto align-self-start see-more">See more <img src="images/arrow.png" class="arrow-icon" /></a>
-    </div>
-  </div>
-</div>
-      
-      <div class="col-lg-3 mb-3 d-flex align-items-stretch">
-        <div class="card">
-          
-          <div class="card-body d-flex flex-column">
-            <div class="d-flex gap-3 align-items-center">
-<img src="images/api-cloud.png" />
-<h5 class="card-title">Find Email <br />Address</h5>
-</div>
-            <p class="para-1 mt-3 card-text mb-1">Search by phone number, street address, name and address, name and city/state, name and state, or even just a name.</p>
-      <a href="#" class="btn mt-auto align-self-start see-more">See more <img src="images/arrow.png" class="arrow-icon" /></a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-lg-3 mb-3 d-flex align-items-stretch">
-        <div class="card">
-          
-          <div class="card-body d-flex flex-column">
-            <div class="d-flex gap-3 align-items-center">
-            <img src="images/api-cloud.png" />
-            <h5 class="card-title">Find Email Address</h5>
+        <div class="psa-carousel-card">
+        
+        <div>
+        <img src="https://dilsondecano.github.io/people-search-api/images/api-cloud.png" class="img-fluid">
+        <h2>Find Phone Number</h2>
             </div>
-              <p class="para-1 mt-3 card-text mb-1">This API enables you to identify, enhance, and update your database making customer records and sales leads more valuable.</p>
-            <a href="#" class="btn mt-auto align-self-start see-more">See more <img src="images/arrow.png" class="arrow-icon" /></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
+            <p>This API makes it easy to get to phone numbers from street address, email address, name and address, name and city/state or name and state.</p>
+        <a href="#psa-find-phone-number">See more</a>
+            </div>
     
+   
+      <div class="psa-carousel-card">
+<div>
+<img src="https://dilsondecano.github.io/people-search-api/images/api-cloud.png" class="img-fluid">
+<h2>Find Name and Address</h2>
+    </div>
+          <p>Our property data API is ideal for businesses needing the current contact information, such as the name and phone number of the current owner the property.</p>
+<a href="#psa-find-name-address">See more</a>
+    </div>
+      
+     
+    <div class="psa-carousel-card">
+<div>
+<img src="https://dilsondecano.github.io/people-search-api/images/api-cloud.png" class="img-fluid">
+<h2>Find <br />Email Address</h2>
+    </div>
+        <p>Search by phone number, street address, name and address, name and city/state, name and state, or even just a name.</p>
+<a href="#psa-find-email-address">See more</a>
+    </div>
+   
+    <div class="psa-carousel-card">
+<div>
+<img src="https://dilsondecano.github.io/people-search-api/images/api-cloud.png" class="img-fluid">
+<h2>Find Property <br />Records</h2>
+    </div>
+        <p>This API enables you to identify, enhance, and update your database making customer records and sales leads more valuable.</p>
+<a href="#psa-property-records">See more</a>
+    </div>    
+                 
+    </div></div>
+
+        </section>
+
+           
     <!-- Estimate Your Cost Section -->
 <section id="psa-estimate-cost" class="padding-tb-75">
   <div class="container">
+      <h2 class="text-center font-weight-bold">ESTIMATE YOUR COST</h2>
+      <div class="row">
       
-      <h2 class="text-center">ESTIMATE YOUR COST</h2>
 
-      
+          <div class="col-0 order-sm-1 order-2">
       <div class="mt-5 text-center">
-      <span>Records per month</span> <input type="text" name="name" value="" /><button class="btn-orange mt-4">Estimate</button>
+      <span class="d-none d-sm-inline-block">Records per month</span> 
+          <div id="psa-records-per-month-mobile" class="row">
+              <div>
+                  <div class="font-weight-bold">Records per month</div>
+                  <div class="psa-xml-json-mobile"><a href="#">XML</a> <span class="psa-xml-json-mobile">|</span> <a href="#">JSON</a></div>              
+              </div>
+
+          </div>
+          <input type="text" name="name" value="" class="psa-estimate-cost-input" /><button class="btn-orange mt-4 d-none d-sm-inline-block">Estimate</button>
+
+
       </div>
 
-      <div class="mt-4 text-center">
+      <div class="mt-4 text-center d-none d-sm-block">
           <a href="#">XML</a> <span class="psa-xml-json">|</span> <a href="#">JSON</a>
       </div>
+              </div>
+
+          <div class="col-0 order-sm-2 order-3">
       <div class="mt-6 text-start d-flex justify-content-between cost-estimate-form flex-lg-row flex-column">
           <div class="text-nowrap">
             <input type="radio" name="name" value="" id="api-find-phone-number" />
@@ -579,35 +584,71 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
             <label for="api-advanced-person-search">API - Advanced Person Search</label>          
               </div>
           </div>
-      
-
+              <div><button class="btn-orange mt-4 d-block d-sm-none">Estimate</button></div>
+      </div>
+          <div class="col-0 order-sm-3 order-1">
       <div class="mt-5">
-          <table class="text-center">
+          
+          <table class="text-center psa-avg-match-rate-table">
               <thead>
                   <tr>
                   <th>AVG Match Rate</th>
                   <th>Expected Hits</th>
-                  <th>AVG Match Rate</th>
-                  <th>AVG Match Rate</th>
+                  
                    </tr>
               </thead>         
 
               <tr>
                   <td>48%</td>
                   <td>4800</td>
-                  <td>$545</td>
-                  <td>$0.114</td>
+                  
               </tr>
           </table>
 
+          <table class="text-center psa-expected-cost-table">
+    <thead>
+        <tr>
+        <th>Expected Cost</th>
+        <th>Rate per hit</th>
+        
+         </tr>
+    </thead>         
+
+    <tr>
+        <td>$545</td>
+        <td>$0.114</td>
+        
+    </tr>
+</table>
+
+            <table class="text-center psa-aeaa">
+      <thead>
+          <tr>
+          <th>AVG Match Rate</th>
+          <th>Expected Hits</th>
+          <th>AVG Match Rate</th>
+          <th>AVG Match Rate</th>
+           </tr>
+      </thead>         
+
+      <tr>
+          <td>48%</td>
+          <td>4800</td>
+          <td>$545</td>
+          <td>$0.114</td>
+      </tr>
+  </table>
+
           <p class="mt-3 text-center"><strong>Cost</strong> is $0.20 to $0.04 per hit, depending on volume. No charge, if phone not found.</p>
       </div>
+              </div>
 
+      </div>
       
   </div>
 
                 <!-- Call To Action Section -->
-  <div class="container psa-cta">
+  <div class="container psa-cta" data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine"data-aos-once="true">
   
     
     <div>
@@ -624,25 +665,19 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
   
 </div>
 
+    
 </section>
-
-
-
-
-
-
-
 
     <!-- Section -->
     <section class="padding-tb-50" id="psa-aps-bat">
     <div class="container">
   <div class="row">
-    <div class="col-md">
+    <div class="col-md" data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine"data-aos-once="true">
  <h2>LOOKING FOR SOMEONE?</h2>
         <h3>Advanced Person Search</h3>
         <button class="btn-orange mt-4">Search Now</button>
     </div>
-    <div class="col-md psa-bat">
+    <div class="col-md psa-bat" data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine"data-aos-once="true">
       <h2>NOT A DEVELOPER?</h2>
        <h3>Use our Batch Append Tool</h3>
        <button class="btn-orange mt-4">Try Now</button>
@@ -654,8 +689,8 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
 
     <!-- Find Phone Number Section -->
 <section id="psa-find-phone-number" class="mt-5">
-  <div class="container position-relative">
-      <img src="images/find-phone-number-icon.png" alt="Find Phone Number" class="position-absolute start-100 translate-middle" />
+  <div class="container position-relative" data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine"data-aos-once="true">
+      <img src="https://dilsondecano.github.io/people-search-api/images/find-phone-number-icon.png" alt="Find Phone Number" class="position-absolute start-100 translate-middle" />
       <div class="p-5">
       <h2 class="heading-dark">Find Phone Number</h2>
 
@@ -669,9 +704,9 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
 </section>
 
         <!-- Find Name and Address Section -->
-<section id="psa-find-name-address" class="mt-3">
+<section id="psa-find-name-address" class="mt-3" data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine"data-aos-once="true">
   <div class="container position-relative">
-      <img src="images/find-name-address-icon.png" alt="Find Name and Address" class="position-absolute start-100 translate-middle" />
+      <img src="https://dilsondecano.github.io/people-search-api/images/find-name-address-icon.png" alt="Find Name and Address" class="position-absolute start-100 translate-middle" />
     <div class="p-5">
       <h2 class="heading-dark">Find Name and Address</h2>
       <p>This API enables you to identify, enhance, and update your database making customer records and sales leads more valuable. Also incredibly helpful for inbound calls centers and marketing departments.</p>
@@ -684,10 +719,10 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
 </section>
 
             <!-- Find Email Address Section -->
-<section id="psa-find-email-address" class="mt-3">
+<section id="psa-find-email-address" class="mt-3" data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine"data-aos-once="true">
   
       <div class="container position-relative">
-          <img src="images/find-email-address-icon.png" alt="Find Email Address" class="position-absolute start-100 translate-middle" />
+          <img src="https://dilsondecano.github.io/people-search-api/images/find-email-address-icon.png" alt="Find Email Address" class="position-absolute start-100 translate-middle" />
     <div class="p-5">
         <h2 class="heading-dark">Find Email Address</h2>
       <p>Email address are the heart of any communications strategy. Now you can get email address for consumers or businesses with this tool. Search by phone number, street address, name and address, name and city/state, name and state, or even just a name.</p>
@@ -700,9 +735,9 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
 </section>
 
             <!-- Property Records Section -->
-<section id="psa-property-records" class="mt-3">
+<section id="psa-property-records" class="mt-3" data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine"data-aos-once="true">
   <div class="container position-relative">
-      <img src="images/property-records-icon.png" alt="Property Records" class="position-absolute start-100 translate-middle" />
+      <img src="https://dilsondecano.github.io/people-search-api/images/property-records-icon.png" alt="Property Records" class="position-absolute start-100 translate-middle"  />
     <div class="p-5">
       <h2 class="heading-dark">Property Records</h2>
       <p>Our property data API is ideal for businesses needing the current contact information, such as the name and phone number of the current owner of a specific property. This is especially helpful when researching rental property to find the actual owner.</p>
@@ -714,78 +749,11 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
       <button class="btn-orange mt-4">Estimate</button> <button class="btn-gray mt-4">View API documentation</button>
           </div>
   </div>
-</section>
+</section>  
 
-
-
-
-
-    <!-- Advanced Person Search Section 
-  <section id="advance-person-search" class="padding-tb-75">
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-6">
-          <h2>LOOKING FOR SOMEONE?</h2>
-          <h3 class="h3-orange">Advanced Person Search</h3>
-          <p class="para-1">
-            The Searchbug Advanced Person Search API utilizes sophisticated
-            algorithms from various data partners to find the most up to date
-            and complete contact records for people in US.
-          </p>
-          <p class="para-1">
-            We like to think of it as a mini Skip Trace report.
-          </p>
-          <button class="btn-orange mt-4">Search Now</button>
-        </div>
-        <div
-          class="col-md-6 d-flex justify-content-center"
-          aria-labelledby="gettingStartedTitle"
-        >
-          <img
-            src="images/advanced-person-search.png"
-            alt="Alternate Text"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </div>
-  </section>
-
-        -->
-
-  <!-- Batch Append Tools Section 
-  <section id="batch-append-tools" class="padding-tb-75">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img
-            src="images/batch-append-tool.png"
-            alt="Alternate Text"
-            id="bat-img"
-              class="img-fluid"
-          />
-
-
-        </div>
-        <div
-          class="col-md-6 align-self-center"
-          aria-labelledby="gettingStartedTitle"
-        >
-          <h2>NOT A DEVELOPER?</h2>
-          <h3 class="h3-orange">Use our Batch Append Tool.</h3>
-          <button class="btn-orange mt-4">Try Now</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-      -->
-
-
-
-  <!-- How do I get access to APIs? Section -->
+ <!-- How do I get access to APIs? Section -->
   <section id="psa-faq" class="padding-tb-75">
-    <div class="container">
+    <div class="container" data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-in-sine"data-aos-once="true">
         <div>
       <h2>How do I get access to APIs?</h2>
       <div class="hr-line"></div>
@@ -833,6 +801,48 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl31', 'ctl01', [], [], [], 
             </div>
     </div>
   </section>
+
+
+         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                center: false,
+                autoplay: false,
+                autoplayTimeout: 1500,
+                autoplayHoverPause: true,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    576: {
+                        items: 1,
+                        nav: false
+                    },
+
+                    992: {
+                        items: 3,
+                        nav: true
+                    },
+
+                    1200: {
+                        items: 4,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+
+        })
+    </script>  
 
 
 
