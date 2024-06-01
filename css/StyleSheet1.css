@@ -432,7 +432,10 @@ nav #user-icon {
     font-weight: 700
 }
 
-
+#ao-testimonials .ao-testimonials-col {
+    transform: scale(0.9);
+    gap: 12px
+}
 
 #ao-brand-customer-partners .brand-customers-partner-img {
     width: 200px;
