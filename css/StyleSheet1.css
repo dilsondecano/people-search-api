@@ -915,7 +915,7 @@ button.btn-most-recommended-dnone {
     height: 100vh
 }
 
-#sb-adi-laptop, #sb-adi-heading, #sb-adi-wave3, #sb-adi-wave4 {
+#sb-adi-laptop, #sb-adi-heading, #sb-adi-wave3, #sb-adi-wave4, #hero-text-1, #hero-text-2, #hero-text-3, #hero-text-4, #hero-text-5 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -929,10 +929,40 @@ button.btn-most-recommended-dnone {
     }
 
 
-div#sb-adi-heading {
-    z-index: 9;
+#hero-text-1, #hero-text-2, #hero-text-3, #hero-text-4, #hero-text-5 {
+    z-index: 99
 }
 
+
+#hero-text-1 {
+    top: 63%;
+    left: 25%;
+}
+
+#hero-text-2 {
+    top: 50%;
+    left: 75%;
+}
+
+#hero-text-3 {
+    top: 60%;
+    left: 70%;
+}
+
+#hero-text-4 {
+    top: 85%;
+    left: 30%;
+}
+
+#hero-text-5 {
+    top: 85%;
+    left: 70%;
+}
+
+div#sb-adi-heading {
+    z-index: 9;
+    top: 40%;
+}
 
 div#sb-adi-wave3 {
     z-index: 8;
