@@ -1915,6 +1915,14 @@ th.apva-pvt-border {
     display: none
 }
 
+.header .container {
+    min-height: 0 !important;
+}
+
+.header-divider, #headerTitle, #headerSubTitle {
+    display: none
+}
+
 @media (max-width: 576px) {
 
     ##psa-estimate-cost .psa-amreh-table {
