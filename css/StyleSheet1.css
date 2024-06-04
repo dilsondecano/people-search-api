@@ -131,7 +131,7 @@
 
 
 #people-search-api-hero {
-    background: url("/images/psabg.png") no-repeat bottom;
+    background: url("https://dilsondecano.github.io/people-search-api//images/psabg.png") no-repeat bottom;
     background-size: cover
 }
 
@@ -436,6 +436,34 @@ nav #user-icon {
     transform: scale(0.9);
     gap: 12px
 }
+
+
+#api-overview-testimonials .ao-testimonials-image {
+    width: 126px;
+ 	float: left;
+	margin-right: 12px
+}
+
+#api-overview-testimonials {
+    font-size: 19px;
+    color: #6f6f6d;
+}
+
+#api-overview-testimonials .owl-dots {
+    display: none
+}
+
+#api-overview-testimonials .owl-carousel .owl-next, #api-overview-testimonials .owl-carousel .owl-prev {
+    top: 30%;
+}
+
+#api-overview-testimonials .owl-carousel .owl-prev {
+    left: -30px;
+}
+
+    #api-overview-testimonials .owl-carousel .owl-next {
+        right: -30px;
+    }
 
 
 #ao-brand-customer-partners .brand-customers-partner-img {
@@ -963,6 +991,7 @@ div#sb-adi-heading {
     z-index: 9;
     top: 40%;
 }
+
 
 div#sb-adi-wave3 {
     z-index: 8;
@@ -1955,7 +1984,7 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
-        #ao-call-to-action h2 {
+    #ao-call-to-action h2 {
         font-size: 26px;
        }
 
@@ -1974,8 +2003,8 @@ th.apva-pvt-border {
     #ao-brand-customers-partners .row {
         flex-direction: column;
     }
-    
-    ##psa-estimate-cost .psa-amreh-table {
+
+    #psa-estimate-cost .psa-amreh-table {
         font-size: 16px !important
     }
 
