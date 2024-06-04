@@ -1982,7 +1982,7 @@ th.apva-pvt-border {
     display: none
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
     #apva-carousel h2 {
         font-size: 13px !important;
     }
