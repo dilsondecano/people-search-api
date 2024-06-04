@@ -1955,6 +1955,26 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
+        #ao-call-to-action h2 {
+        font-size: 26px;
+       }
+
+    #ao-call-to-action h3 {
+        font-size: 20px;
+    }
+
+    #ao-brand-customers-partners h2 {
+        font-size: 26px;
+    }
+
+    #ao-brand-customers-partners h2 span {
+        font-size: 26px !important;
+    }
+
+    #ao-brand-customers-partners .row {
+        flex-direction: column;
+    }
+    
     ##psa-estimate-cost .psa-amreh-table {
         font-size: 16px !important
     }
