@@ -1982,6 +1982,22 @@ th.apva-pvt-border {
     display: none
 }
 
+@media (max-width: 375px) {
+    #apva-carousel h2 {
+        font-size: 13px !important;
+    }
+
+    #apva-carousel .apva-carousel-card {
+        margin: 5px 8px;
+        padding: 12px 12px;
+    }
+
+    #apva-cpra label {
+        font-size: 15px;
+    }
+
+}
+
 @media (max-width: 576px) {
 
     #ao-call-to-action h2 {
