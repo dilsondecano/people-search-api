@@ -37,7 +37,7 @@
 
     .how-do-get-access-api li {
         margin-top: 12px;
-        list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
+        list-style-image: url("/images/arrow-icon.png");
     }
 
 
@@ -165,7 +165,7 @@
 
 
 #people-search-api-hero {
-    background: url("https://dilsondecano.github.io/people-search-api/images/psabg.png") no-repeat bottom;
+    background: url("/images/psabg.png") no-repeat bottom;
     background-size: cover
 }
 
@@ -309,7 +309,7 @@ nav #user-icon {
 
 
 #psa-faq ul li {
-    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
+    list-style-image: url("/images/arrow-icon.png");
     margin: 12px 0
 }
 
@@ -924,12 +924,12 @@ button.btn-most-recommended-dnone {
     font-weight: 700;
 }
 #pv-advanced-pricing-list li {
-    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/orange-check-icon.png");
+    list-style-image: url("/images/orange-check-icon.png");
     color: #fff
 }
 
 #pv-advanceddnc-pricing-list li, #pv-basic-pricing-list li, #pv-complete-pricing-list li {
-    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/green-check-icon.png");
+    list-style-image: url("/images/green-check-icon.png");
     color: #fff
 }
 
@@ -1606,7 +1606,7 @@ th.apva-pvt-border {
     }
 
     #ipa-faq ul li {
-        list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
+        list-style-image: url("/images/arrow-icon.png");
         margin: 12px 0
     }
 
@@ -1730,7 +1730,7 @@ th.apva-pvt-border {
 
     #eva-faq li {
         margin-top: 12px;
-        list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
+        list-style-image: url("/images/arrow-icon.png");
     }
 
 #eva-estimate-cost-verify-data h2 {
@@ -1984,8 +1984,11 @@ th.apva-pvt-border {
     padding: 0px 0px 0 30px;
 }
 
-@media (max-width: 430px) {
+.psa-amreh-table {
+    display: none
+}
 
+@media (max-width: 430px) {
     .sb-api-data-integration-list {
         font-size: 16px !important;        
     }
@@ -2008,6 +2011,39 @@ th.apva-pvt-border {
 }
 
 @media (max-width: 576px) {
+
+    .psa-amreh-table {
+        display: block
+    }
+
+    .psa-amreh-result {
+        background: #fff;
+        border: 1px solid var(--clr-orange);
+        border-radius: 6px;
+        padding: 6px;
+        color: #505050;
+        margin: 2px
+    }
+
+
+    .psa-amreh-title {
+        background: var(--clr-orange);
+        border-radius: 6px;
+        padding: 6px;
+        color: #fff;
+        font-weight: 700;
+        margin: 2px
+    }
+
+
+    .psa-amreh-table {
+        display: flex;
+        text-align: center;
+        color: black;
+        background: white;
+        padding: 4px;
+        border-radius: 9px;
+    }
 
     #psa-carousel .owl-carousel .owl-next, #psa-carousel .owl-carousel .owl-prev {
         top: 30% !important
@@ -2157,7 +2193,10 @@ th.apva-pvt-border {
         }
 
         #psa-estimate-cost .psa-amreh-table {
-            font-size: 16px !important
+        font-size: 16px !important;
+        background: #fff;
+        border-radius: 9px;
+        padding: 2px;
         }
 
         #psa-faq > .container > div {
@@ -2628,12 +2667,20 @@ th.apva-pvt-border {
         font-size: 18px;
         font-weight: 700;
     }
+
+    #psa-carousel .psa-carousel-card {
+        height: 100% !important
+    }
     
 
 }
 
 
 @media (max-width: 991px) {
+
+    #psa-carousel .psa-carousel-card {
+        height: 75%
+    }
 
     #ao-watch-videos #ao-youtube-play-icon {
         width: 150px;
@@ -2662,11 +2709,9 @@ th.apva-pvt-border {
         padding-bottom: 0px !important;
     }
 
-
-
-
-
     #apva-carousel .col-md {
         margin-top: 30px;
     }
+
+    
 }
