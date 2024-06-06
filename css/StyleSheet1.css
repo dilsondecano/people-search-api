@@ -7,6 +7,40 @@
     --clr-text-color-3: #ededed;
 }
 
+.estimate-cost-verify-data h2 {
+    color: #505050;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.estimate-cost-verify-data h2 span {
+        color: var(--clr-orange);
+    }
+
+.estimate-cost-verify-data h3 {
+    color: #505050;
+    font-size: 26px;
+}
+
+.how-do-get-access-api {
+    background: #FDF5E7;
+}
+
+    .how-do-get-access-api h2 {
+        font-size: 42px;
+        font-weight: 700;
+        color: #505050;
+        border-bottom: 4px solid var(--clr-orange);
+        padding-bottom: 18px;
+        margin-bottom: 30px;
+    }
+
+    .how-do-get-access-api li {
+        margin-top: 12px;
+        list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
+    }
+
+
 
 .padding-tb-50 {
     padding: 50px 0px;
@@ -131,7 +165,7 @@
 
 
 #people-search-api-hero {
-    background: url("https://dilsondecano.github.io/people-search-api//images/psabg.png") no-repeat bottom;
+    background: url("https://dilsondecano.github.io/people-search-api/images/psabg.png") no-repeat bottom;
     background-size: cover
 }
 
@@ -275,7 +309,7 @@ nav #user-icon {
 
 
 #psa-faq ul li {
-    list-style-image: url('/images/arrow-icon.png');
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
     margin: 12px 0
 }
 
@@ -570,6 +604,11 @@ nav #user-icon {
     color: var(--clr-orange)
 }
 
+#ao-use-batch-append-tool img {
+    width: 190px;
+}
+
+
 #ao-card-carousel h5.card-title {
     color: #505050;
     font-size: 26px;
@@ -639,9 +678,7 @@ nav #user-icon {
     width: 16px
 }
 
-#ao-use-batch-append-tool img {
-    width: 190px;
-}
+
 
 #ao-call-to-action h2 {
     font-size: 73px;
@@ -666,7 +703,7 @@ nav #user-icon {
 }
 
 #ao-watch-videos #img-watch-videos {
-    width: 450px;
+    
     cursor: pointer
 }
 
@@ -887,12 +924,12 @@ button.btn-most-recommended-dnone {
     font-weight: 700;
 }
 #pv-advanced-pricing-list li {
-    list-style-image: url(/images/orange-check-icon.png);
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/orange-check-icon.png");
     color: #fff
 }
 
 #pv-advanceddnc-pricing-list li, #pv-basic-pricing-list li, #pv-complete-pricing-list li {
-    list-style-image: url(/images/green-check-icon.png);
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/green-check-icon.png");
     color: #fff
 }
 
@@ -923,8 +960,8 @@ button.btn-most-recommended-dnone {
     font-weight: 700;
 }
 
-#ao-brand-customers-partners h2 {
-    font-size: 40px;
+.ao-brand-customers-partners-desktop h2 {
+    font-size: 40px !important;
     color: #373737;
     font-weight: 700;
 }
@@ -936,11 +973,6 @@ button.btn-most-recommended-dnone {
 
 #ao-brand-customers-partners .ao-logo-carousel .owl-dots {
     display: none;
-}
-
-#ao-sb-adi {
-    position: relative;
-    height: 100vh
 }
 
 #sb-adi-laptop, #sb-adi-heading, #sb-adi-wave3, #sb-adi-wave4, #hero-text-1, #hero-text-2, #hero-text-3, #hero-text-4, #hero-text-5 {
@@ -1269,25 +1301,6 @@ th.apva-pvt-border {
     border: 1px solid #fff;
 }
 
-#apva-faq {
-    background: #FDF5E7
-}
-
-
-    #apva-faq h2 {
-        font-size: 42px;
-        font-weight: 700;
-        color: #505050;
-        border-bottom: 4px solid var(--clr-orange);
-        padding-bottom: 18px;
-        margin-bottom: 30px;
-    }
-
-#apva-faq li {
-    margin-top: 12px;
-    list-style-image: url(/images/arrow-icon.png);
-}
-
 #apva-carousel {
     background: #ededed;
 }
@@ -1448,21 +1461,6 @@ th.apva-pvt-border {
     margin-bottom: 50px;
 }
 
-#apva-estimate-cost-verify-data h2 {
-    color: #505050;
-    font-size: 42px;
-    font-weight: 700;
-}
-
-    #apva-estimate-cost-verify-data h2 span {
-        color: var(--clr-orange);
-    }
-
-#apva-estimate-cost-verify-data h3 {
-    color: #505050;
-    font-size: 26px;
-    
-}
 .apva-cta-btn-mobile {
     display: none;
 }
@@ -1608,7 +1606,7 @@ th.apva-pvt-border {
     }
 
     #ipa-faq ul li {
-        list-style-image: url('/images/arrow-icon.png');
+        list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
         margin: 12px 0
     }
 
@@ -1732,7 +1730,7 @@ th.apva-pvt-border {
 
     #eva-faq li {
         margin-top: 12px;
-        list-style-image: url(/images/arrow-icon.png);
+        list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
     }
 
 #eva-estimate-cost-verify-data h2 {
@@ -1982,7 +1980,18 @@ th.apva-pvt-border {
     display: none
 }
 
+#ao-watch-videos .row.orange-border {
+    padding: 0px 0px 0 30px;
+}
+
 @media (max-width: 430px) {
+
+    .sb-api-data-integration-list {
+        font-size: 16px !important;        
+    }
+
+    
+
     #apva-carousel h2 {
         font-size: 13px !important;
     }
@@ -2000,95 +2009,219 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
-    #ao-call-to-action h2 {
-        font-size: 26px;
-       }
-
-    #ao-call-to-action h3 {
-        font-size: 20px;
-    }
-
-    #ao-brand-customers-partners h2 {
-        font-size: 26px;
-    }
-
-    #ao-brand-customers-partners h2 span {
-        font-size: 26px !important;
-    }
-
-    #ao-brand-customers-partners .row {
-        flex-direction: column;
-    }
-
-    #psa-estimate-cost .psa-amreh-table {
-        font-size: 16px !important
+    #psa-carousel .owl-carousel .owl-next, #psa-carousel .owl-carousel .owl-prev {
+        top: 30% !important
     }
 
     #psa-people-search-api-list .p-5 {
         padding: 30px !important
     }
 
-    #psa-faq > .container > div {
-       padding: 30px;
+    #psa-people-search-api-list #psa-find-name-address,
+    #psa-people-search-api-list #psa-find-email-address,
+    #psa-people-search-api-list #psa-property-records {
+        
+        margin-top: 50px !important;
+
     }
 
-    #psa-estimate-cost input[type="text"] {
-        border-radius: 16px
+    .mt-mobile {
+        margin-top: 30px
     }
 
-    #psa-estimate-cost .psa-estimate-cost-input {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 !important
+    #ao-use-batch-append-tool h2 {
+        font-size: 24px;
+        text-wrap: nowrap
     }
 
-    .psa-xml-json-mobile a {
-        font-size: 16px !important
+    #ao-use-batch-append-tool h3 {
+        font-size: 24px;
+        text-wrap: nowrap
     }
 
-    #psa-estimate-cost .psa-xml-json-mobile {
-        font-size: 16px;
-        margin: 0 3px;
-        font-weight: 400;
-    }
-
-    #psa-estimate-cost label {
-        padding: 3px;
-        font-weight: 500;
-    }
-
-    #psa-estimate-cost input[type = "radio"]:checked + label {
-        background: transparent;
-        font-weight: 700
-    }
-    #psa-estimate-cost .cost-estimate-form {
-        margin-top: 18px
+    #ao-use-batch-append-tool img {
+        width: 120px;
+        margin-left: -90px
     }
 
 
-    #psa-records-per-month-mobile h3, #psa-records-per-month-mobile a {
-        font-size: 16px;
-    }
-
-    #psa-records-per-month-mobile > div {
+    .ao-brand-customers-partners-mobile {
         display: flex;
-        align-items: center;
         justify-content: space-between;
+        margin-bottom: 40px;
+        align-items: center;
+        gap: 6px
     }
 
-    #psa-records-per-month-mobile {
-        display: block;
-        font-size: 16px;
-        margin: 20px 0px 12px 0;
-    }
+        .ao-logo-carousel-mobile img {
+        width: 90px !important;
+        margin: 0 auto
+        }
 
-    #psa-estimate-cost p {
-        display: none
-    }
+        .ao-brand-customers-partners-mobile h2 {
+            text-wrap: nowrap;
+            font-size: 24px !important;
+            color: #373737
+        }
 
-    #psa-estimate-cost .psa-expected-cost-table, #psa-estimate-cost .psa-avg-match-rate-table {
-        display: block
-    }
+        .ao-brand-customers-partners-mobile h2 span {
+            text-wrap: nowrap;
+            font-size: 24px !important
+        }
+
+        .ao-brand-customers-partners-mobile img{
+            width: 150px
+        }
+
+
+        #ao-features-benefits h3 {
+            font-size: 16px;
+            font-weight: 400;            
+        }
+
+        #ao-features-benefits img {
+            height: 120px;
+        }
+
+        #ao-features-benefits h2 {
+            font-size: 26px;
+
+        }
+
+        #api-overview-testimonials .owl-carousel .owl-prev {
+            left: -12px;
+        }
+
+        #api-overview-testimonials .owl-carousel .owl-next {
+            right: -12px;
+        }
+
+
+        #api-overview-testimonials .ao-testimonials-image {
+            width: 100px;
+        }
+
+        #api-overview-testimonials {
+            font-size: 16px;
+        }
+
+
+        #ao-watch-videos #img-watch-videos {
+            width: 370px !important
+        }
+
+        #ao-watch-videos h2 {
+            font-size: 26px;
+        }
+
+        #ao-watch-videos #ao-youtube-play-icon {
+            width: 120px !important;
+            top: 25%;
+        }
+
+        #ao-watch-videos .row.orange-border {
+            padding: 30px 10px 0 10px;
+        }
+
+        .how-do-get-access-api h2 {
+            font-size: 26px;
+            border-bottom: 3px solid var(--clr-orange);
+        }
+
+        .how-do-get-access-api li {
+            font-size: 16px;
+        }
+
+        .estimate-cost-verify-data h2 {
+            font-size: 26px;
+        }
+
+        .estimate-cost-verify-data h3 {
+            font-size: 20px;
+        }
+
+        #ao-call-to-action h2 {
+            font-size: 26px;
+        }
+
+        #ao-call-to-action h3 {
+            font-size: 14px;
+        }
+
+        #ao-brand-customers-partners h2 {
+            font-size: 26px;
+        }            
+
+        #ao-brand-customers-partners .row {
+            flex-direction: row;
+        }
+
+        #psa-estimate-cost .psa-amreh-table {
+            font-size: 16px !important
+        }
+
+        #psa-faq > .container > div {
+            padding: 30px;
+        }
+
+        #psa-estimate-cost input[type="text"] {
+            border-radius: 16px
+        }
+
+        #psa-estimate-cost .psa-estimate-cost-input {
+            width: 100%;
+            max-width: 100%;
+            margin: 0 !important
+        }
+
+        .psa-xml-json-mobile a {
+            font-size: 16px !important
+        }
+
+        #psa-estimate-cost .psa-xml-json-mobile {
+            font-size: 16px;
+            margin: 0 3px;
+            font-weight: 400;
+        }
+
+        #psa-estimate-cost label {
+            padding: 3px;
+            font-weight: 500;
+        }
+
+        #psa-estimate-cost input[type = "radio"]:checked + label {
+            background: transparent;
+            font-weight: 700
+        }
+
+        #psa-estimate-cost .cost-estimate-form {
+            margin-top: 18px
+        }
+
+
+        #psa-records-per-month-mobile h3, #psa-records-per-month-mobile a {
+            font-size: 16px;
+        }
+
+        #psa-records-per-month-mobile > div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #psa-records-per-month-mobile {
+            display: block;
+            font-size: 16px;
+            margin: 20px 0px 12px 0;
+        }
+
+        #psa-estimate-cost p {
+            display: none
+        }
+
+        #psa-estimate-cost .psa-expected-cost-table, #psa-estimate-cost .psa-avg-match-rate-table {
+            display: block
+        }
 
         #psa-estimate-cost .psa-aeaa {
             display: none
@@ -2100,55 +2233,53 @@ th.apva-pvt-border {
             text-wrap: nowrap
         }
 
-    #psa-estimate-cost .psa-expected-cost-table th, #psa-estimate-cost .psa-avg-match-rate-table th {
-        background: var(--clr-orange);
-        color: #fff;
-        padding: 16px;
-        border: 5px solid #fff;
-        border-radius: 12px
-    }
+        #psa-estimate-cost .psa-expected-cost-table th, #psa-estimate-cost .psa-avg-match-rate-table th {
+            background: var(--clr-orange);
+            color: #fff;
+            padding: 16px;
+            border: 5px solid #fff;
+            border-radius: 12px
+        }
 
-    #psa-estimate-cost .psa-expected-cost-table {
-        margin-top: 12px
-    }
+        #psa-estimate-cost .psa-expected-cost-table {
+            margin-top: 12px
+        }
 
-    #psa-estimate-cost .psa-expected-cost-table td, #psa-estimate-cost .psa-avg-match-rate-table td {
-        background: #fff;
-        color: #000;
-        padding: 16px;
-        border: 5px solid #fff;
-        border-radius: 12px;
-    }
-    
+        #psa-estimate-cost .psa-expected-cost-table td, #psa-estimate-cost .psa-avg-match-rate-table td {
+                background: #fff;
+                color: #000;
+                padding: 16px;
+                border: 5px solid #fff;
+                border-radius: 12px;
+        }
 
-    #psa-estimate-cost h2 {
-        font-size: 26px;
-    }
+        #psa-estimate-cost h2 {
+            font-size: 26px;
+        }
 
-    .psa-people-search-api-hero{
-        display: none
-    }
+        .psa-people-search-api-hero {
+            display: none
+        }
 
-    .psa-people-search-api-hero-mobile {
-        display: block;
-        width: 150px;
-        float: right;
-    }
+        .psa-people-search-api-hero-mobile {
+            display: block;
+            width: 150px;
+            float: right;
+        }
 
-    #psa-carousel .owl-item.cloned, #psa-carousel .owl-item.active {
-        height: auto
-    }
+        #psa-carousel .owl-item.cloned, #psa-carousel .owl-item.active {
+            height: auto
+        }
 
-    #psa-carousel p {
-        font-size: 16px;
-    }
+        #psa-carousel p {
+            font-size: 16px;
+        }
 
-
-    #apva-sst-header-mobile div {
-        display: flex;
-        align-items: center;
-        justify-content: space-between
-    }
+        #apva-sst-header-mobile div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between
+        }
 
         #apva-sst-header-mobile h3 {
             font-size: 16px;
@@ -2156,389 +2287,386 @@ th.apva-pvt-border {
             font-weight: 700
         }
 
+        #eva-estimate-your-cost .eva-estimate-your-cost {
+            background: #fff;
+            border-radius: 16px;
+            border: 2px solid var(--clr-orange);
+            padding: 20px 60px;
+        }
 
-    #eva-estimate-your-cost .eva-estimate-your-cost {
-        background: #fff;
-        border-radius: 16px;
-        border: 2px solid var(--clr-orange);
-        padding: 20px 60px;
+        #eva-estimate-your-cost .eva-api-type {
+            font-size: 20px;
+            font-weight: 400
+        }
+
+        #eva-estimate-your-cost input[type = "radio"]:checked + label {
+            color: #505050;
+        }
+
+        #eva-records-per-month input[type="text"] {
+            background: #ededed;
+            border: none;
+        }
+         
+        #eva-records-per-month input[type="text"]::placeholder {
+                font-size: 18px;
+                text-align: center;
+                color: #aaa
+        }
+
+        #eva-estimate-your-cost h3 {
+            color: var(--clr-orange);
+        }
+
+        #eva-estimate-api-documentation p {
+            font-size: 16px
+        }
+
+        #eva-hero h2 {
+            font-size: 26px;
+            text-align: left
+        }
+
+        #eva-hero h3 {
+            font-size: 33px;
+            text-align: left
+        }
+
+        #eva-hero p {
+            font-size: 16px;
+            text-align: left
+        }
+
+        #eva-card-carousel .card-title {
+            font-size: 25px;
+        }
+
+        #eva-card-carousel p {
+            font-size: 18px;
+        }
+
+        #eva-card-carousel a {
+            font-size: 15px;
+        }
+
+        #apva-cta {
+            background: #fff;
+        }
+       
+        .pvt-clock-icon {
+            width: 90px;
+            right: 12px;
+            bottom: 0;
+            top: -39px;
+        }
+
+        .pvt-pin-icon {
+            width: 55px;
+            left: -18px;
+            top: 10%;
+        }
+
+        #phone-validator-table h2 {
+            display: block;
+            font-size: 26px;
+            font-weight: 700;
+            color: #fff;
+            text-align: left;
+            margin-bottom: 21px;
+        }
+
+        #eva-faq h2 {
+            font-size: 26px;
+            border-bottom: 3px solid var(--clr-orange);
+        }
+
+        #eva-faq li {
+            font-size: 16px;
+        }
+
+        .eva-cta-btn-desktop {
+            display: none;
+        }
+
+        .eva-cta-btn-mobile {
+            display: block;
+        }
+
+        #eva-cta h2 {
+            font-size: 20px !important;
+            text-align: left !important
+        }
+
+        #eva-cta h3 {
+            font-size: 26px !important;
+            text-align: left !important;
+            text-transform: capitalize
+        }
+        
+        #apva-carousel h2 {
+            font-size: 20px;
+        }
+
+        #apva-carousel a {
+            font-size: 12px;
+        }
+
+        #apva-cpra ul {
+            margin-bottom: 0
+        }
+
+        #apva-cpra th {
+            border-radius: 12px;
+            text-wrap: nowrap;
+        }
+
+        #apva-cpra td {
+            border-radius: 12px;
+            background: #fff;
+            border: 2px solid var(--clr-orange);
+            display: block;
+            margin-top: 18px;
+        }
+
+
+
+        #apva-cpra label:hover {
+            background: #D4D3D2;
+        }
+
+        .btn-orange {
+            padding: 6px 30px;
+            border-radius: 9px;
+        }
+
+        .btn-gray {
+            padding: 6px 30px;
+            border-radius: 9px;
+        }
+
+        #apva-identify-phone-num h2 {
+            font-size: 20px;
+        }
+
+        #apva-identify-phone-num p {
+            font-size: 16px;
+            margin-top: 30px;
+        }
+
+        #apva-identify-phone-num .p-5 {
+            padding: 2rem 1rem !important
+        }
+
+        #apva-dnc-list h2 {
+            font-size: 20px;
+            text-align: left;
+        }
+
+        #apva-dnc-list p {
+            font-size: 16px;
+            text-align: left
+        }
+
+        #apva-records-per-month input[type="text"] {
+            margin: 0;
+        }
+
+        .apva-cta-btn-desktop {
+            display: none;
+        }
+
+        .apva-cta-btn-mobile {
+            display: block;
+        }
+
+
+
+        .ipa-cta-btn-desktop {
+            display: none;
+        }
+
+        .ipa-cta-btn-mobile {
+            display: block;
+        }
+
+        #people-search-api-hero h1 {
+            font-size: 26px;
+            text-align: left
+        }
+
+        #people-search-api-hero h2 {
+            font-size: 36px;
+            text-align: left
+        }
+
+        #people-search-api-hero p {
+            font-size: 18px;
+            text-align: left
+        }
+
+        #psa-aps-bat h3 {
+            font-size: 26px;
+        }
+
+        button.btn-orange, button.btn-gray {
+            font-size: 16px;
+        }
+
+        .col-md.psa-bat {
+            margin-top: 50px;
+        }
+
+        .heading-dark {
+            font-size: 26px;
+
+        }
+
+        #psa-faq h2 {
+            font-size: 25px;
+        }
+
+        #ipa-faq h2 {
+            font-size: 25px;
+        }
+
+        #ipa-faq li {
+            font-size: 16px;
+        }
+
+
+        #psa-property-records p, #psa-find-email-address p, #psa-find-name-address p, #psa-find-phone-number p, #psa-faq li {
+            font-size: 16px;
+        }
+
+        #psa-property-records img,
+        #psa-find-email-address img,
+        #psa-find-name-address img,
+        #psa-find-phone-number img {
+            top: -30px;
+            width: 90px;
+            left: 86% !important
+        }
+
+        .psa-cta {
+            display: none
+        }
+
+        #apva-cpra .row.apva-api-type {
+            background: #F4F5F5;
+            border-radius: 12px
+        }
+
+
+        #apva-cpra label {
+            font-weight: 400;
+            color: #505050;
+            display: block;
+            padding: 3px 0px 3px 18px;
+        }
+
+        #apva-cpra input[type=radio] {
+            display: none
+        }
+
+        #apva-cpra .apva-input-radio, #apva-cpra ul {
+            padding: 0px
+        }
+
+        #apva-cpra input[type = "radio"]:checked + label {
+            background: #D4D3D2;
+            font-weight: 700;
+            color: #505050;
+            border-radius: 9px
+        }
+
+        #apva-hero h1 {
+            font-size: 26px;
+            text-align: left
+        }
+
+        #apva-hero h2 {
+            font-size: 36px;
+            text-align: left
+        }
+
+        #apva-hero p {
+            font-size: 16px;
+            text-align: left
+        }
+
+        #apva-cpra #eyc-header {
+            font-size: 26px;
+            color: var(--clr-orange);
+            text-align: left
+        }
+
+        #apva-cpra h2 {
+            display: none
+        }
+
+        #apva-cta h2 {
+            font-size: 20px !important;
+            text-align: left !important
+        }
+
+        #apva-cta h3 {
+            font-size: 26px !important;
+            text-align: left !important;
+            text-transform: capitalize
+        }
+    }
+
+
+@media (max-width: 768px) {
+
+    .sb-api-data-integration-list {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin: 12px 0;
+        color: #373737;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+
+}
+
+
+@media (max-width: 991px) {
+
+    #ao-watch-videos #ao-youtube-play-icon {
+        width: 150px;
+        top: 25%;
+    }
+
+    #ao-watch-videos .row.orange-border {
+        padding: 30px 10px 0 10px;
     }
 
     #eva-estimate-your-cost .eva-api-type {
-        font-size: 20px;
-        font-weight: 400
+        flex-direction: column;
     }
 
-    #eva-estimate-your-cost input[type = "radio"]:checked + label {
-        color: #505050;
+    #eva-estimate-your-cost #eva-records-per-month {
+        flex-direction: column;
+        margin-top: 30px;
     }
 
-    #eva-records-per-month input[type="text"] {
-        background: #ededed;
-        border: none;
-    }
-
-        #eva-records-per-month input[type="text"]::placeholder {
-            font-size: 18px;
-            text-align: center;
-            color: #aaa
+        #eva-estimate-your-cost #eva-records-per-month button {
+            margin-top: 30px;
         }
 
-    #eva-estimate-your-cost h3 {
-        color: var(--clr-orange);
-    }
 
-    #eva-estimate-api-documentation p {
-        font-size: 16px
-    }
-
-    #eva-hero h2 {
-        font-size: 26px;
-        text-align: left
-    }
-
-    #eva-hero h3 {
-        font-size: 33px;
-        text-align: left
-    }
-
-    #eva-hero p {
-        font-size: 16px;
-        text-align: left
-    }
-
-    #eva-card-carousel .card-title {
-        font-size: 25px;
-    }
-
-    #eva-card-carousel p {
-        font-size: 18px;
-    }
-
-    #eva-card-carousel a {
-        font-size: 15px;
-    }
-
-    #apva-estimate-cost-verify-data h2 {
-        font-size: 26px;
-    }
-
-    #apva-estimate-cost-verify-data h3 {
-        font-size: 20px;
-    }
-
-    #apva-estimate-cost-verify-data img {
-        width: 132px;
-    }
-
-    #apva-cta {
-        background: #fff;
-    }
-
-
-    .pvt-clock-icon {
-        width: 90px;
-        right: 12px;
-        bottom: 0;
-        top: -39px;
-    }
-
-    .pvt-pin-icon {
-        width: 55px;
-        left: -18px;
-        top: 10%;
-    }
-
-    #phone-validator-table h2 {
-        display: block;
-        font-size: 26px;
-        font-weight: 700;
-        color: #fff;
-        text-align: left;
-        margin-bottom: 21px;
-    }
-
-    #eva-faq h2 {
-        font-size: 26px;
-        border-bottom: 3px solid var(--clr-orange);
-    }
-
-    #eva-faq li {
-        font-size: 16px;
-    }
-
-
-    .eva-cta-btn-desktop {
-        display: none;
-    }
-
-    .eva-cta-btn-mobile {
-        display: block;
-    }
-
-    #eva-cta h2 {
-        font-size: 20px !important;
-        text-align: left !important
-    }
-
-    #eva-cta h3 {
-        font-size: 26px !important;
-        text-align: left !important;
-        text-transform: capitalize
+    .cost-estimate-form {
+        padding-bottom: 0px !important;
     }
 
 
 
-    #apva-carousel h2 {
-                font-size: 20px;
-            }
-
-            #apva-carousel a {
-                font-size: 12px;
-            }
-
-            #apva-cpra ul {
-                margin-bottom: 0
-            }
-
-            #apva-cpra th {
-                border-radius: 12px;
-                text-wrap: nowrap;
-            }
-
-            #apva-cpra td {
-                border-radius: 12px;
-                background: #fff;
-                border: 2px solid var(--clr-orange);
-                display: block;
-                margin-top: 18px;
-            }
 
 
-
-            #apva-cpra label:hover {
-                background: #D4D3D2;
-            }
-
-            #apva-faq h2 {
-                font-size: 26px;
-                border-bottom: 3px solid var(--clr-orange);
-            }
-
-            #apva-faq li {
-                font-size: 16px;
-            }
-
-
-
-            .btn-orange {
-                padding: 6px 30px;
-                border-radius: 9px;
-            }
-
-            .btn-gray {
-                padding: 6px 30px;
-                border-radius: 9px;
-            }
-
-            #apva-identify-phone-num h2 {
-                font-size: 20px;
-            }
-
-            #apva-identify-phone-num p {
-                font-size: 16px;
-                margin-top: 30px;
-            }
-
-            #apva-identify-phone-num .p-5 {
-                padding: 2rem 1rem !important
-            }
-
-            #apva-dnc-list h2 {
-                font-size: 20px;
-                text-align: left;
-            }
-
-            #apva-dnc-list p {
-                font-size: 16px;
-                text-align: left
-            }
-
-            #apva-records-per-month input[type="text"] {
-                margin: 0;
-            }
-
-            .apva-cta-btn-desktop {
-                display: none;
-            }
-
-            .apva-cta-btn-mobile {
-                display: block;
-            }
-
-    
-
-    .ipa-cta-btn-desktop {
-        display: none;
+    #apva-carousel .col-md {
+        margin-top: 30px;
     }
-
-    .ipa-cta-btn-mobile {
-        display: block;
-    }
-
-            #people-search-api-hero h1 {
-                font-size: 26px;
-                text-align: left
-            }
-
-            #people-search-api-hero h2 {
-                font-size: 36px;
-                text-align: left
-            }
-
-            #people-search-api-hero p {
-                font-size: 18px;
-                text-align: left
-            }
-
-            #psa-aps-bat h3 {
-                font-size: 30px;
-            }
-
-            button.btn-orange, button.btn-gray {
-                font-size: 16px;
-            }
-
-            .col-md.psa-bat {
-                margin-top: 50px;
-            }
-
-            .heading-dark {
-                font-size: 30px;
-            }
-
-            #psa-faq h2 {
-                font-size: 25px;
-            }
-
-    #ipa-faq h2 {
-        font-size: 25px;
-    }
-
-    #ipa-faq li {
-        font-size: 16px;
-    }
-
-
-    #psa-property-records p, #psa-find-email-address p, #psa-find-name-address p, #psa-find-phone-number p, #psa-faq li {
-        font-size: 16px;
-    }
-
-            #psa-property-records img,
-            #psa-find-email-address img,
-            #psa-find-name-address img,
-            #psa-find-phone-number img {
-                top: 0%;
-                width: 110px;
-                left: 86% !important
-            }
-
-            .psa-cta {
-                display: none
-            }
-
-            #apva-cpra .row.apva-api-type {
-                background: #F4F5F5;
-                border-radius: 12px
-            }
-
-
-            #apva-cpra label {
-                font-weight: 400;
-                color: #505050;
-                display: block;
-                padding: 3px 0px 3px 18px;
-            }
-
-            #apva-cpra input[type=radio] {
-                display: none
-            }
-
-            #apva-cpra .apva-input-radio, #apva-cpra ul {
-                padding: 0px
-            }
-
-            #apva-cpra input[type = "radio"]:checked + label {
-                background: #D4D3D2;
-                font-weight: 700;
-                color: #505050;
-                border-radius: 9px
-            }
-
-            #apva-hero h1 {
-                font-size: 26px;
-                text-align: left
-            }
-
-            #apva-hero h2 {
-                font-size: 36px;
-                text-align: left
-            }
-
-            #apva-hero p {
-                font-size: 16px;
-                text-align: left
-            }
-
-            #apva-cpra #eyc-header {
-                font-size: 26px;
-                color: var(--clr-orange);
-                text-align: left
-            }
-
-            #apva-cpra h2 {
-                display: none
-            }
-
-            #apva-cta h2 {
-                font-size: 20px !important;
-                text-align: left !important
-            }
-
-            #apva-cta h3 {
-                font-size: 26px !important;
-                text-align: left !important;
-                text-transform: capitalize
-            }
-        }
-
-        @media (max-width: 991px) {
-
-            #eva-estimate-your-cost .eva-api-type {
-                flex-direction: column;
-            }
-
-            #eva-estimate-your-cost #eva-records-per-month {
-                flex-direction: column;
-                margin-top: 30px;
-            }
-
-            #eva-estimate-your-cost #eva-records-per-month button {
-                margin-top: 30px;
-            }
-
-
-                .cost-estimate-form {
-                    padding-bottom: 0px !important;
-                }
-
-            #ao-use-batch-append-tool .container {
-                flex-direction: column;
-            }
-
-
-
-            #apva-carousel .col-md {
-                margin-top: 30px;
-            }
-        }
+}
