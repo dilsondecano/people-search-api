@@ -1988,6 +1988,14 @@ th.apva-pvt-border {
     display: none
 }
 
+#apva-carousel .owl-carousel .owl-next {
+	right: -25px
+}
+
+#apva-carousel .owl-carousel .owl-next, #apva-carousel .owl-carousel .owl-prev {
+	top: 25% !important;
+}
+
 @media (max-width: 430px) {
     .sb-api-data-integration-list {
         font-size: 16px !important;        
