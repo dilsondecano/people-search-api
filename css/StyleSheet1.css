@@ -1996,6 +1996,24 @@ th.apva-pvt-border {
 	top: 25% !important;
 }
 
+#stsa-hero h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--clr-orange);
+}
+
+
+#stsa-hero h3 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #373737;
+}
+
+#stsa-hero p {
+    font-size: 20px;
+    color: #505050
+}
+
 @media (max-width: 430px) {
     .sb-api-data-integration-list {
         font-size: 16px !important;        
