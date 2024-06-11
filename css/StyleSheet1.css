@@ -7,6 +7,17 @@
     --clr-text-color-3: #ededed;
 }
 
+.sb-api-list h2 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #505050;
+}
+
+.sb-api-list p {
+    font-size: 20px;
+    color: #505050;
+}
+
 .estimate-cost-verify-data h2 {
     color: #505050;
     font-size: 42px;
@@ -26,19 +37,19 @@
     background: #FDF5E7;
 }
 
-    .how-do-get-access-api h2 {
-        font-size: 42px;
-        font-weight: 700;
-        color: #505050;
-        border-bottom: 4px solid var(--clr-orange);
-        padding-bottom: 18px;
-        margin-bottom: 30px;
-    }
+.how-do-get-access-api h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #505050;
+    border-bottom: 4px solid var(--clr-orange);
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+}
 
-    .how-do-get-access-api li {
-        margin-top: 12px;
-        list-style-image: url("/images/arrow-icon.png");
-    }
+.how-do-get-access-api li {
+    margin-top: 12px;
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
+}
 
 
 
@@ -165,7 +176,7 @@
 
 
 #people-search-api-hero {
-    background: url("/images/psabg.png") no-repeat bottom;
+    background: url("https://dilsondecano.github.io/people-search-api/images/psabg.png") no-repeat bottom;
     background-size: cover
 }
 
@@ -309,7 +320,7 @@ nav #user-icon {
 
 
 #psa-faq ul li {
-    list-style-image: url("/images/arrow-icon.png");
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
     margin: 12px 0
 }
 
@@ -924,12 +935,12 @@ button.btn-most-recommended-dnone {
     font-weight: 700;
 }
 #pv-advanced-pricing-list li {
-    list-style-image: url("/images/orange-check-icon.png");
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/orange-check-icon.png");
     color: #fff
 }
 
 #pv-advanceddnc-pricing-list li, #pv-basic-pricing-list li, #pv-complete-pricing-list li {
-    list-style-image: url("/images/green-check-icon.png");
+    list-style-image: url("https://dilsondecano.github.io/people-search-api/images/green-check-icon.png");
     color: #fff
 }
 
@@ -1084,7 +1095,7 @@ div#sb-adi-laptop {
     background: #fff;
     border-radius: 16px;
     border: 2px solid var(--clr-orange);
-    padding: 20px 60px;
+    padding: 20px 30px;
 }
 
 .container.apva-cta h2 {
@@ -1606,7 +1617,7 @@ th.apva-pvt-border {
     }
 
     #ipa-faq ul li {
-        list-style-image: url("/images/arrow-icon.png");
+        list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
         margin: 12px 0
     }
 
@@ -1730,7 +1741,7 @@ th.apva-pvt-border {
 
     #eva-faq li {
         margin-top: 12px;
-        list-style-image: url("/images/arrow-icon.png");
+        list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
     }
 
 #eva-estimate-cost-verify-data h2 {
@@ -1989,12 +2000,13 @@ th.apva-pvt-border {
 }
 
 #apva-carousel .owl-carousel .owl-next {
-	right: -25px
+    right: -25px
 }
 
 #apva-carousel .owl-carousel .owl-next, #apva-carousel .owl-carousel .owl-prev {
-	top: 25% !important;
+    top: 25% !important;
 }
+
 
 #stsa-hero h2 {
     font-size: 42px;
@@ -2014,17 +2026,61 @@ th.apva-pvt-border {
     color: #505050
 }
 
+#ad-api-documentation-hero {
+    background: var(--clr-orange);
+}
+
+#ad-api-documentation-hero h1 {
+    font-size: 73px;
+    font-weight: 700;
+    color: #fff
+}
+
+#ad-api-documentation-hero h2 {
+    font-size: 33px;
+    color: #fff
+}
+
+.ad-sidebar ul {
+    list-style: none    
+}
+
+.ad-sidebar ul li a {
+    text-decoration: none
+}
+
+.ad-sidebar ul ul {
+    position: static;
+    display: none
+}
+
+.ad-people-search-api-btn-show.show {
+    display: block
+}
+
+.ad-people-search-api-left-btn i.fa-solid.fa-square-caret-left {
+    cursor: pointer
+}
+
+.ad-api-documentation-table th {
+    background: #FFF7ED;
+    color: var(--clr-orange);
+    font-weight: 500
+}
+
+.ad-api-documentation-table td {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500
+}
+
+
+
 @media (max-width: 430px) {
     .sb-api-data-integration-list {
         font-size: 16px !important;        
     }
-
-    
-
-    #apva-carousel h2 {
-        font-size: 13px !important;
-    }
-
+  
     #apva-carousel .apva-carousel-card {
         margin: 5px 8px;
         padding: 12px 12px;
@@ -2037,6 +2093,40 @@ th.apva-pvt-border {
 }
 
 @media (max-width: 576px) {
+
+    .sb-api-list h2 {
+        font-weight: 700;
+        font-size: 20px;
+        color: #505050;
+    }
+
+    .sb-api-list p {
+        font-size: 16px;
+        color: #505050;
+    }
+
+    #stsa-hero h2 {
+        font-size: 26px;
+        font-weight: 700;
+        color: var(--clr-orange);
+    }
+
+
+    #stsa-hero h3 {
+        font-size: 33px;
+        font-weight: 700;
+        color: #373737;
+    }
+
+    #stsa-hero p {
+        font-size: 16px;
+        color: #505050
+    }
+
+    #eva-identify-email h2 {
+        font-size: 33px;
+        text-align: left;
+    }
 
     .psa-amreh-table {
         display: block
@@ -2061,14 +2151,13 @@ th.apva-pvt-border {
         margin: 2px
     }
 
-
-    .psa-amreh-table {
+    #psa-estimate-cost .psa-amreh-table {
+        font-size: 16px !important;
+        background: #fff;
+        border-radius: 9px;
+        padding: 2px;
         display: flex;
         text-align: center;
-        color: black;
-        background: white;
-        padding: 4px;
-        border-radius: 9px;
     }
 
     #psa-carousel .owl-carousel .owl-next, #psa-carousel .owl-carousel .owl-prev {
@@ -2102,7 +2191,7 @@ th.apva-pvt-border {
     }
 
     #ao-use-batch-append-tool img {
-display: none
+        display: none
     }
 
 
@@ -2217,12 +2306,7 @@ display: none
             flex-direction: row;
         }
 
-        #psa-estimate-cost .psa-amreh-table {
-        font-size: 16px !important;
-        background: #fff;
-        border-radius: 9px;
-        padding: 2px;
-        }
+        
 
         #psa-faq > .container > div {
             padding: 30px;
@@ -2468,11 +2552,7 @@ display: none
         }
         
         #apva-carousel h2 {
-            font-size: 20px;
-        }
-
-        #apva-carousel a {
-            font-size: 12px;
+            font-size: 21px;
         }
 
         #apva-cpra ul {
