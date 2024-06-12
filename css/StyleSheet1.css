@@ -18,26 +18,31 @@
     color: #505050;
 }
 
-.estimate-cost-verify-data h2 {
+.sb-api-list li {
+    color: #505050;
+    font-size: 20px
+}
+
+.sb-get-info-cta h2 {
     color: #505050;
     font-size: 42px;
     font-weight: 700;
 }
 
-.estimate-cost-verify-data h2 span {
+.sb-get-info-cta h2 span {
         color: var(--clr-orange);
     }
 
-.estimate-cost-verify-data h3 {
+.sb-get-info-cta h3 {
     color: #505050;
     font-size: 26px;
 }
 
-.how-do-get-access-api {
+.sb-how-do-get-access-api {
     background: #FDF5E7;
 }
 
-.how-do-get-access-api h2 {
+.sb-how-do-get-access-api h2 {
     font-size: 42px;
     font-weight: 700;
     color: #505050;
@@ -46,7 +51,7 @@
     margin-bottom: 30px;
 }
 
-.how-do-get-access-api li {
+.sb-how-do-get-access-api li {
     margin-top: 12px;
     list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
 }
@@ -2074,6 +2079,110 @@ th.apva-pvt-border {
     font-weight: 500
 }
 
+.sb-table-mobile {
+    display: none
+}
+
+#stsa-records-per-month-mobile {
+    display: none;
+}
+
+#stsa-identify-email h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#stsa-estimate-your-cost #stsa-sst-header {
+    font-size: 18px;
+    font-weight: 700;
+    color: #505050;
+    text-align: left;
+}
+
+
+#stsa-estimate-your-cost #stsa-records-per-month {
+    font-size: 20px;
+    color: #505050;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+}
+
+#stsa-estimate-your-cost .stsa-api-type {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+    font-size: 21px;
+    color: #505050;
+}
+
+#stsa-estimate-your-cost h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #505050;
+    text-align: center;
+}
+
+#stsa-estimate-your-cost th {
+    background: var(--clr-orange);
+    color: #fff;
+    font-weight: 700;
+    padding: 12px;
+    text-align: center;
+    border-radius: 16px 16px 0 0;
+}
+
+#stsa-estimate-your-cost td {
+    background: #ededed;
+    color: #6f6f6f;
+    font-weight: 700;
+    padding: 12px;
+    border-radius: 0 0 16px 16px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#stsa-records-per-month input[type="text"] {
+    width: 600px;
+    max-width: 100%;
+    border-radius: 16px;
+    border: solid 2px #505050;
+    padding: 10px 30px;
+    margin: 0 30px;
+    text-align: center;
+    color: #aaa
+}
+
+#stsa-estimate-your-cost input[type = "radio"]:checked + label {
+    color: var(--clr-orange);
+}
+
+#stsa-identify-email h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#stsa-identify-email span {
+    color: var(--clr-orange);
+}
+
+#stsa-identify-email h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#stsa-identify-email img {
+    height: 120px;
+}
 
 
 @media (max-width: 430px) {
@@ -2093,6 +2202,110 @@ th.apva-pvt-border {
 }
 
 @media (max-width: 576px) {
+
+    .sb-api-list li {
+        font-size: 16px
+    }
+
+    #stsa-identify-email h2 {
+        font-size: 33px;
+        text-align: left;
+    }
+
+    #stsa-identify-email h3 {
+        font-size: 16px;
+    }
+
+
+    #stsa-identify-email img {
+        height: 100px;
+    }
+
+    #stsa-estimate-your-cost .stsa-estimate-your-cost {
+        background: #fff;
+        border-radius: 16px;
+        border: 2px solid var(--clr-orange);
+        padding: 20px;
+    }
+
+    #stsa-records-per-month-mobile > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #stsa-records-per-month-mobile {
+        display: block;
+        font-size: 16px;
+        margin: 20px 0px 12px 0;
+    }
+
+    #stsa-estimate-cost .psa-xml-json-mobile {
+        font-size: 16px;
+        margin: 0 3px;
+        font-weight: 400;
+    }
+
+    #stsa-estimate-your-cost .psa-xml-json-mobile a {
+        color: #505050;
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    #stsa-estimate-your-cost #stsa-sst-header {
+        font-size: 16px;
+        
+    }
+
+    #stsa-estimate-your-cost #stsa-records-per-month {
+        flex-direction: column;
+    }
+
+    #stsa-estimate-your-cost .stsa-api-type {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    #stsa-records-per-month input[type="text"] {
+        background: #ededed;
+        border: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #stsa-estimate-your-cost h3 {
+        font-size: 26px;
+        text-align: left;
+        color: var(--clr-orange)
+    }
+
+    .sb-table-mobile {
+        font-size: 16px !important;
+        background: #fff;
+        border-radius: 9px;
+        padding: 2px;
+        display: flex;
+        text-align: center;
+    }
+
+    .sb-table-mobile-title {
+        background: var(--clr-orange);
+        border-radius: 6px;
+        padding: 6px;
+        color: #fff;
+        font-weight: 700;
+        margin: 2px;
+    }
+
+
+    .sb-table-mobile-result {
+        background: #fff;
+        border: 1px solid var(--clr-orange);
+        border-radius: 6px;
+        padding: 6px;
+        color: #505050;
+        margin: 2px;
+    }
 
     .sb-api-list h2 {
         font-weight: 700;
@@ -2273,21 +2486,25 @@ th.apva-pvt-border {
             padding: 30px 10px 0 10px;
         }
 
-        .how-do-get-access-api h2 {
+        .sb-how-do-get-access-api h2 {
             font-size: 26px;
             border-bottom: 3px solid var(--clr-orange);
         }
 
-        .how-do-get-access-api li {
+        .sb-how-do-get-access-api li {
             font-size: 16px;
         }
 
-        .estimate-cost-verify-data h2 {
-            font-size: 26px;
+        .sb-get-info-cta h2 {
+        font-size: 26px;
         }
 
-        .estimate-cost-verify-data h3 {
-            font-size: 20px;
+        .sb-get-info-cta h3 {
+        font-size: 20px;
+        }
+
+        .sb-get-info-cta img {
+        width: 130px;
         }
 
         #ao-call-to-action h2 {
@@ -2429,29 +2646,22 @@ th.apva-pvt-border {
             justify-content: space-between
         }
 
-	
-
-#apva-carousel a {
-	display: block;
-	text-align: center
-}
-
-	#apva-carousel .apva-carousel-card {
-padding: 30px 24px
-}
-
         #apva-sst-header-mobile h3 {
             font-size: 16px;
             color: #505050;
             font-weight: 700
         }
 
-        #eva-estimate-your-cost .eva-estimate-your-cost {
-            background: #fff;
-            border-radius: 16px;
-            border: 2px solid var(--clr-orange);
-            padding: 20px 60px;
-        }
+    #eva-estimate-your-cost #eva-records-per-month {
+        display: block
+    }
+
+    #eva-estimate-your-cost .eva-estimate-your-cost {
+        background: #fff;
+        border-radius: 16px;
+        border: 2px solid var(--clr-orange);
+        padding: 20px;
+    }
 
         #eva-estimate-your-cost .eva-api-type {
             font-size: 20px;
@@ -2564,12 +2774,22 @@ padding: 30px 24px
         
         #apva-carousel h2 {
             font-size: 24px;
-            text-align: center;
+            text-align: center
         }
 
-        #apva-cpra ul {
-            margin-bottom: 0
-        }
+    
+    #apva-carousel a {
+        display: block;
+        text-align: center
+    }
+
+    #apva-carousel .apva-carousel-card {
+    padding: 30px 24px
+    }
+
+    #apva-cpra ul {
+        margin-bottom: 0
+    }
 
         #apva-cpra th {
             border-radius: 12px;
@@ -2775,6 +2995,12 @@ padding: 30px 24px
 
 @media (max-width: 768px) {
 
+    #stsa-estimate-your-cost #stsa-records-per-month {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+
     .sb-api-data-integration-list {
         display: flex;
         align-items: center;
@@ -2794,6 +3020,10 @@ padding: 30px 24px
 
 
 @media (max-width: 991px) {
+
+    #stsa-estimate-your-cost .stsa-api-type {
+        flex-direction: column;
+    }
 
     #psa-carousel .psa-carousel-card {
         height: 75%
