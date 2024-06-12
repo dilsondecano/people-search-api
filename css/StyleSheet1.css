@@ -2429,6 +2429,19 @@ th.apva-pvt-border {
             justify-content: space-between
         }
 
+	#apva-carousel br {
+	display: none;
+}
+
+#apva-carousel a {
+	display: block;
+	text-align: center
+}
+
+	#apva-carousel .apva-carousel-card {
+padding: 30px 24px
+}
+
         #apva-sst-header-mobile h3 {
             font-size: 16px;
             color: #505050;
@@ -2552,7 +2565,8 @@ th.apva-pvt-border {
         }
         
         #apva-carousel h2 {
-            font-size: 21px;
+            font-size: 24px;
+            text-align: center;
         }
 
         #apva-cpra ul {
