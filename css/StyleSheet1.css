@@ -7,6 +7,34 @@
     --clr-text-color-3: #ededed;
 }
 
+
+
+.sb-carousel .owl-item.cloned, .sb-carousel .owl-item.active {
+    height: 400px;
+}
+
+.sb-carousel-card h2 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #505050;
+}
+
+.sb-carousel .sb-carousel-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 16px;
+    margin: 5px 13px;
+    padding: 26px;
+    height: 85%;
+}
+
+.sb-carousel-card a {
+    margin-top: auto;
+    font-weight: 700;
+}
+
+
 /* COMPONENT: Create Custom API CTA */
 
 .sb-create-custom-api-cta .container.create-custom-api-cta h2 {
@@ -72,6 +100,11 @@
 }
 
 /* COMPONENT: How Do Get Access API */
+
+
+.sb-how-do-get-access-api a {
+    font-weight: 700
+}
 
 .sb-how-do-get-access-api {
     background: #FDF5E7;
@@ -2048,6 +2081,17 @@ th.apva-pvt-border {
 }
 
 
+
+#stsa-sb-carousel {
+    background: #ededed
+}
+
+#stsa-sb-carousel h2 {
+    font-size: 26px;
+    margin-bottom: 16px
+}
+
+
 #stsa-hero h2 {
     font-size: 42px;
     font-weight: 700;
@@ -3082,6 +3126,8 @@ th.apva-pvt-border {
 
 @media (max-width: 768px) {
 
+    
+
     #stsa-estimate-your-cost #stsa-records-per-month {
         flex-direction: column;
         gap: 16px;
@@ -3099,7 +3145,7 @@ th.apva-pvt-border {
     }
 
     #psa-carousel .psa-carousel-card {
-        height: 100% !important
+        height: 100%
     }
     
 
@@ -3108,6 +3154,7 @@ th.apva-pvt-border {
 
 @media (max-width: 991px) {
 
+ 
     #stsa-estimate-your-cost .stsa-api-type {
         flex-direction: column;
     }
@@ -3145,7 +3192,6 @@ th.apva-pvt-border {
 
     #apva-carousel .col-md {
         margin-top: 30px;
-    }
-
-    
+    }    
 }
+
