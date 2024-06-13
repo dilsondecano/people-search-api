@@ -7,6 +7,37 @@
     --clr-text-color-3: #ededed;
 }
 
+/* COMPONENT: Create Custom API CTA */
+
+.sb-create-custom-api-cta .container.create-custom-api-cta h2 {
+    color: var(--clr-orange);
+    font-size: 26px !important;
+    font-weight: 700;
+}
+
+.sb-create-custom-api-cta .container.create-custom-api-cta h3 {
+    font-size: 34px !important;
+    font-weight: 700;
+}
+
+.sb-create-custom-api-cta .container.create-custom-api-cta > div {
+    background: #fff;
+    border-radius: 16px;
+    border: 2px solid var(--clr-orange);
+    padding: 20px 60px;
+}
+
+.sb-cta-btn-desktop {
+    display: block;
+    margin: 0 auto;
+}
+
+.sb-create-custom-api-cta .sb-cta-btn-mobile {
+    display: none;
+}
+
+/* COMPONENT: API List */
+
 .sb-api-list h2 {
     font-weight: 700;
     font-size: 26px;
@@ -23,6 +54,8 @@
     font-size: 20px
 }
 
+/* COMPONENT: Get Info CTA */
+
 .sb-get-info-cta h2 {
     color: #505050;
     font-size: 42px;
@@ -37,6 +70,8 @@
     color: #505050;
     font-size: 26px;
 }
+
+/* COMPONENT: How Do Get Access API */
 
 .sb-how-do-get-access-api {
     background: #FDF5E7;
@@ -2185,6 +2220,37 @@ th.apva-pvt-border {
 }
 
 
+#stsa-card-carousel {
+    background: #ededed;
+}
+
+    #stsa-card-carousel p {
+        font-size: 20px !important;
+        color: #505050;
+        line-height: 1.4rem;
+    }
+
+#stsa-card-carousel .card {
+        border-radius: 30px;
+    }
+
+#stsa-card-carousel .card-title {
+        font-size: 26px;
+        font-weight: 700;
+        color: #505050;
+    }
+
+
+#stsa-card-carousel a {
+    font-size: 16px;
+    color: var(--clr-orange);
+    font-weight: 700;
+}
+
+#stsa-create-custom-api-cta {
+    background: #ededed;
+}
+
 @media (max-width: 430px) {
     .sb-api-data-integration-list {
         font-size: 16px !important;        
@@ -2202,6 +2268,24 @@ th.apva-pvt-border {
 }
 
 @media (max-width: 576px) {
+
+    .sb-create-custom-api-cta .container.create-custom-api-cta h2 {
+        text-align: left !important;
+    }
+
+    .sb-create-custom-api-cta .container.create-custom-api-cta h3 {
+        font-size: 26px !important;
+        text-align: left !important;
+        text-transform: capitalize;
+    }
+
+    .sb-create-custom-api-cta .sb-cta-btn-mobile {
+        display: block;
+    }
+
+    .sb-create-custom-api-cta .sb-cta-btn-desktop {
+        display: none;
+    }
 
     .sb-api-list li {
         font-size: 16px
@@ -2322,6 +2406,7 @@ th.apva-pvt-border {
         font-size: 26px;
         font-weight: 700;
         color: var(--clr-orange);
+        text-align: left
     }
 
 
@@ -2329,11 +2414,13 @@ th.apva-pvt-border {
         font-size: 33px;
         font-weight: 700;
         color: #373737;
+        text-align: left
     }
 
     #stsa-hero p {
         font-size: 16px;
-        color: #505050
+        color: #505050;
+        text-align: left
     }
 
     #eva-identify-email h2 {
