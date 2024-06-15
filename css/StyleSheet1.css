@@ -35,6 +35,40 @@
 }
 
 
+/* COMPONENT: Card Carousel */
+
+.sb-card-carousel-api a:hover {
+    color: var(--clr-orange) !important;
+    text-decoration: none
+}
+
+.sb-card-carousel-api {
+    background: #ededed;
+}
+
+.sb-card-carousel-api .card-title {
+     font-size: 26px;
+     font-weight: 700;
+     color: #505050;
+}
+
+.sb-card-carousel-api p {
+     font-size: 20px;
+     color: #505050;
+     line-height: 1.4rem;
+}
+
+.sb-card-carousel-api .card {
+     border-radius: 30px;
+}
+
+.sb-card-carousel-api a {
+     font-size: 16px;
+     color: var(--clr-orange);
+     font-weight: 700;
+}
+
+
 /* COMPONENT: Create Custom API CTA */
 
 .sb-create-custom-api-cta .container.create-custom-api-cta h2 {
@@ -1577,10 +1611,14 @@ th.apva-pvt-border {
     transition: 0.3s
 }
 
-    .load-more-container .load-more:hover {
-        color: var(--clr-orange);        
-    }
+.load-more-container .load-more:hover {
+    color: var(--clr-orange);        
 
+}
+
+#ipa-card-carousel-api a {
+    color: #fff;
+}
 
 #ipa-hero h2 {
     font-size: 42px;
@@ -1593,7 +1631,7 @@ th.apva-pvt-border {
 }
 
 #ipa-hero h3 {
-    font-size: 73px;
+    font-size: 70px;
     font-weight: 700;
     color: #505050;
 }
@@ -1620,38 +1658,6 @@ th.apva-pvt-border {
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-}
-
-.container.ipa-cta > div {
-    background: #fff;
-    border-radius: 16px;
-    border: 2px solid var(--clr-orange);
-    padding: 20px 60px;
-}
-
-.container.ipa-cta h2 {
-    color: var(--clr-orange);
-    font-size: 26px !important;
-    font-weight: 700
-}
-
-#ipa-cta {
-    background: #ededed
-}
-
-.container.ipa-cta h3 {
-    font-size: 34px !important;
-    font-weight: 700
-}
-
-
-.ipa-cta-btn-mobile {
-    display: none;
-}
-
-.ipa-cta-btn-desktop {
-    display: block;
-    margin: 0 auto
 }
 
 #ipa-faq {
@@ -1692,26 +1698,7 @@ th.apva-pvt-border {
     #ipa-faq ul li {
         list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
         margin: 12px 0
-    }
-
-    #ipa-get-info-need {
-        background: #ededed
-    }
-
-#ipa-get-info-need span {
-    color: var(--clr-orange);
-}
-
-#ipa-get-info-need h2 {
-    color: #505050;
-    font-size: 42px;
-    font-weight: 700;
-}
-
-#ipa-get-info-need h3 {
-    color: #505050;
-    font-size: 26px;
-}
+    }    
 
 #ipa-customers-partners h2 {
     font-size: 26px;
@@ -2073,7 +2060,7 @@ th.apva-pvt-border {
 }
 
 #apva-carousel .owl-carousel .owl-next {
-    right: -25px
+    right:  -25px
 }
 
 #apva-carousel .owl-carousel .owl-next, #apva-carousel .owl-carousel .owl-prev {
@@ -2296,12 +2283,13 @@ th.apva-pvt-border {
 }
 
 @media (max-width: 430px) {
+
     .sb-api-data-integration-list {
         font-size: 16px !important;        
     }
   
     #apva-carousel .apva-carousel-card {
-        margin: 5px 8px;
+        
         padding: 12px 12px;
     }
 
@@ -2312,6 +2300,14 @@ th.apva-pvt-border {
 }
 
 @media (max-width: 576px) {
+
+    #apva-carousel .owl-carousel .owl-next {
+        right: 0px !important
+    }
+
+    #apva-carousel .owl-carousel .owl-prev {
+        left: 30px !important        
+    }
 
     .sb-create-custom-api-cta .container.create-custom-api-cta h2 {
         text-align: left !important;
@@ -2915,7 +2911,9 @@ th.apva-pvt-border {
     }
 
     #apva-carousel .apva-carousel-card {
-    padding: 30px 24px
+        padding: 30px 24px;
+        width: 70%;
+        margin: 0 auto;
     }
 
     #apva-cpra ul {
@@ -2985,17 +2983,7 @@ th.apva-pvt-border {
         .apva-cta-btn-mobile {
             display: block;
         }
-
-
-
-        .ipa-cta-btn-desktop {
-            display: none;
-        }
-
-        .ipa-cta-btn-mobile {
-            display: block;
-        }
-
+        
         #people-search-api-hero h1 {
             font-size: 26px;
             text-align: left
