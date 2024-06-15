@@ -2345,6 +2345,18 @@ th.apva-pvt-border {
         height: 100px;
     }
 
+    #stsa-sb-carousel .owl-carousel .owl-next, #stsa-sb-carousel .owl-carousel .owl-prev {
+        top: 30% !important    
+    }
+
+    #stsa-sb-carousel .owl-carousel .owl-prev {
+        left: 9px !important;
+    }
+
+    #stsa-sb-carousel .owl-carousel .owl-next {
+        right: -18px !important;
+    }
+
     #stsa-estimate-your-cost .stsa-estimate-your-cost {
         background: #fff;
         border-radius: 16px;
