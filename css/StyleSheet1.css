@@ -2478,6 +2478,8 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
+    
+
     .ad-search-fees-account-setup h2 {
         font-size: 26px
     }
@@ -2496,6 +2498,10 @@ th.apva-pvt-border {
 
     #ad-api-documentation-header h2 {
         font-size: 20px
+    }
+
+    .ipa-card-carousel-api-row {
+        width: 100%
     }
 
     #ipa-card-carousel-api .card.mt-mobile-30 {
@@ -3479,3 +3485,4 @@ th.apva-pvt-border {
         margin-top: 30px;
     }    
 }
+
