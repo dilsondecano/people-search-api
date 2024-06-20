@@ -7,8 +7,6 @@
     --clr-text-color-3: #ededed;
 }
 
-
-
 .sb-carousel .owl-item.cloned, .sb-carousel .owl-item.active {
     height: 400px;
 }
@@ -53,7 +51,7 @@
 }
 
 .sb-card-carousel-api p {
-     font-size: 20px;
+     font-size: 17px;
      color: #505050;
      line-height: 1.4rem;
 }
@@ -284,15 +282,8 @@
     background-size: cover
 }
 
-footer {
-    
-    background: #505050
-}
 
-nav {
-    font-size: 20px;
-    padding: 30px
-}
+
 #psa-nav-bar {
     gap: 54px;
     list-style: none;
@@ -421,18 +412,14 @@ nav #user-icon {
     height: 4px
 }
 
-
-
 #psa-faq ul li {
     list-style-image: url("https://dilsondecano.github.io/people-search-api/images/arrow-icon.png");
     margin: 12px 0
 }
 
-
 #batch-append-tools #bat-img {
     width: 444px
 }
-
 
 #psa-estimate-cost .psa-aeaa th {
     background: var(--clr-orange);
@@ -456,7 +443,6 @@ nav #user-icon {
     background: linear-gradient(180deg, rgba(132,132,132,1) 0%, rgba(157,153,153,1) 100%);
     color: #fff
 }
-
 
 #psa-estimate-cost h2 {
     font-size: 46px;    
@@ -483,7 +469,7 @@ nav #user-icon {
         color: #fff;
         font-size: 20px;
         font-weight: bold
-    }
+}
 
 .psa-estimate-btn {
     color: #fff;
@@ -493,13 +479,12 @@ nav #user-icon {
     padding: 9px 21px;
 }
 
-    #psa-estimate-cost input[type="text"] {
-        font-size: 20px;
-        border: 2px solid #fff;
-        padding: 9px 21px;
-        
-        margin: 0 30px;
-    }
+#psa-estimate-cost input[type="text"] {
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 9px 21px;    
+    margin: 0 30px;
+}
 
 #psa-estimate-cost p {
     font-size: 20px;
@@ -1590,9 +1575,6 @@ th.apva-pvt-border {
     cursor: pointer
 }
 
-
-
-
 .load-more-container {
     background: #ededed;
     text-align: center
@@ -1613,9 +1595,13 @@ th.apva-pvt-border {
 
 }
 
-
 #ipa-card-carousel-api a {
     color: #fff;
+}
+
+.ipa-card-carousel-api-row {
+    width: 95%;
+    margin: 0 auto;
 }
 
 #ipa-hero h2 {
@@ -2110,21 +2096,55 @@ th.apva-pvt-border {
     color: #fff
 }
 
-.ad-sidebar ul {
+#ad-api-documentation-header h2 {
+    font-size: 34px;
+    color: #505050;
+    font-weight: 700
+}
+
+#ad-api-documentation-header p {
+    font-size: 18px;
+    color: #505050;
+}
+
+.ad-sidebar-submenu ul {
     list-style: none    
 }
 
-.ad-sidebar ul li a {
-    text-decoration: none
+.ad-sidebar-submenu ul li:hover {
+    background: #EDEDED;
+    border-radius: 12px;
 }
 
-.ad-sidebar ul ul {
+.ad-sidebar-submenu ul li a:hover {
+    font-weight: 600
+}
+
+.ad-people-search-api-btn-show.show li:hover {
+    background: transparent
+}
+
+.ad-people-search-api-btn-show.show li a:hover {
+    color: var(--clr-orange) !important;
+    font-weight: 400
+}
+
+.ad-sidebar-submenu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 21px;
+    display: block;
+    padding: 16px
+}
+
+.ad-sidebar-submenu ul ul {
     position: static;
     display: none
 }
 
 .ad-people-search-api-btn-show.show {
-    display: block
+    display: block;
+    background: #fff
 }
 
 .ad-people-search-api-left-btn i.fa-solid.fa-square-caret-left {
@@ -2137,10 +2157,16 @@ th.apva-pvt-border {
     font-weight: 500
 }
 
-.ad-api-documentation-table td {
+.ad-api-documentation-table td, .ad-api-documentation-table td li, .ad-api-documentation-table td p {
     color: #000;
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 500
+}
+
+.ad-api-documentation-table-bg {
+    background: #fff !important;
+    font-size: 16px;
+    color: #000 !important
 }
 
 .sb-table-mobile {
@@ -2317,7 +2343,7 @@ th.apva-pvt-border {
 }
 
 .ad-api-documentation-table, .ad-api-documentation-table th, .ad-api-documentation-table td {
-    border: 1px solid black;
+    border: 1px solid var(--clr-orange);
     padding: 12px 30px
 }
 
@@ -2411,6 +2437,29 @@ th.apva-pvt-border {
     }   
 }
 
+#api-documentation-contact-us {
+    background: #ededed
+}
+
+.api-documentation-contact-us-header {
+    font-size: 23px;
+    color: #373737;
+}
+
+.api-documentation-contact-us-email a {
+    font-size: 35px;
+    color: #373737 !important;
+    font-weight: 700;
+    
+}
+
+.api-documentation-contact-us-email a:hover {
+    font-size: 35px;
+    color: var(--clr-orange) !important;
+    font-weight: 700;
+    text-decoration: none
+}
+
 @media (max-width: 430px) {
     .sb-api-data-integration-list {
         font-size: 16px !important;        
@@ -2429,7 +2478,26 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
-    
+    .ad-search-fees-account-setup h2 {
+        font-size: 26px
+    }
+
+    .ad-search-fees-account-setup h3, #ad-sending-request-api h2, .api-documentation-contact-us-email a {
+        font-size: 20px
+    }
+
+    .ad-search-fees-account-setup ul li, .ad-full-width-btn, #ad-api-documentation-header p, #ad-sending-request-api p, #ad-sending-request-api li, .api-documentation-contact-us-header {
+        font-size: 16px
+    }    
+
+    .ad-full-width-btn {
+        padding: 12px
+    }
+
+    #ad-api-documentation-header h2 {
+        font-size: 20px
+    }
+
     #ipa-card-carousel-api .card.mt-mobile-30 {
         margin-top: 30px
     }
@@ -3411,4 +3479,3 @@ th.apva-pvt-border {
         margin-top: 30px;
     }    
 }
-
