@@ -203,6 +203,10 @@
     font-weight: 700
 }
 
+.sb-white-bg {
+    background: #fff;
+}
+
 .para-1 {
     font-size: 20px;
     color: var(--clr-text-color-2)
@@ -275,14 +279,10 @@
     color: var(--clr-text-color-2);
 }
 
-
-
 #people-search-api-hero {
     background: url("https://dilsondecano.github.io/people-search-api/images/psabg.png") no-repeat bottom;
     background-size: cover
 }
-
-
 
 #psa-nav-bar {
     gap: 54px;
@@ -437,7 +437,6 @@ nav #user-icon {
     font-size: 20px;
 }
 
-
 #psa-estimate-cost {
     
     background: linear-gradient(180deg, rgba(132,132,132,1) 0%, rgba(157,153,153,1) 100%);
@@ -552,13 +551,11 @@ nav #user-icon {
        
 }
 
-
 #psa-aps-bat h2 {
     color: #505050;
     font-size: 26px;
     font-weight: 700
 }
-
 
 #psa-aps-bat h3 {
     color: var(--clr-orange);
@@ -570,7 +567,6 @@ nav #user-icon {
     transform: scale(0.9);
     gap: 12px
 }
-
 
 #api-overview-testimonials .ao-testimonials-image {
     width: 126px;
@@ -595,10 +591,9 @@ nav #user-icon {
     left: -30px;
 }
 
-    #api-overview-testimonials .owl-carousel .owl-next {
-        right: -30px;
-    }
-
+#api-overview-testimonials .owl-carousel .owl-next {
+    right: -30px;
+}
 
 #ao-brand-customer-partners .brand-customers-partner-img {
     width: 200px;
@@ -617,7 +612,6 @@ nav #user-icon {
     font-weight: 700
 }
 
-
 #psa-find-phone-number > .container > div,
 #psa-find-name-address > .container > div,
 #psa-find-email-address > .container > div,
@@ -625,7 +619,6 @@ nav #user-icon {
     background: var(--clr-gray);
     border-radius: 16px
 }
-
 
 .container.psa-cta > div {
     background: #fff;
@@ -647,7 +640,6 @@ nav #user-icon {
     font-weight: 700
 }
 
-
 #psa-estimate-cost label {
     position: relative;
     padding: 12px;    
@@ -656,15 +648,11 @@ nav #user-icon {
     transition-duration: 0.3s
 }
 
-
-
 #psa-estimate-cost input[type = "radio"]:checked + label {
     background: var(--clr-orange);
 }
 
-
 /* Maximalist API Overview Page */
-
 
 #ao-features-benefits img {
     height: 160px;
@@ -674,12 +662,10 @@ nav #user-icon {
     color: #fff
 }
 
-
 #ao-features-benefits h2 {
     font-size: 42px;
     font-weight: 700
 }
-
 
 #ao-features-benefits h3 {
     font-size: 20px;
@@ -778,8 +764,6 @@ nav #user-icon {
     width: 16px
 }
 
-
-
 #ao-call-to-action h2 {
     font-size: 73px;
     font-weight: 700;
@@ -826,14 +810,13 @@ nav #user-icon {
     font-weight: 700
 }
 
-    #pv-card-carousel h2 span {
-        color: var(--clr-orange);
-        
-    }
+#pv-card-carousel h2 span {
+    color: var(--clr-orange);
+}
 
-    #pv-card-carousel .card {
-        border: none !important
-    }
+#pv-card-carousel .card {
+    border: none !important
+}
 
 #pv-card-carousel button {
     background: transparent;
@@ -877,22 +860,21 @@ nav #user-icon {
     background: var(--clr-orange);
 }
 
-    #pv-pricing .col-md div h3 {
-        color: #505050;
-        font-size: 44px;
-        font-weight: 700
-    }
+#pv-pricing .col-md div h3 {
+    color: #505050;
+    font-size: 44px;
+    font-weight: 700
+}
 
-    #pv-pricing .col-md div h4 {
-        color: #505050;
-        font-size: 25px;
-        font-weight: 700
-    }
+#pv-pricing .col-md div h4 {
+    color: #505050;
+    font-size: 25px;
+    font-weight: 700
+}
 
-
-    #pv-pricing .col-md div h3 span {
-        font-size: 16px;
-    }
+#pv-pricing .col-md div h3 span {
+    font-size: 16px;
+}
 
     #pv-pricing .pv-pricing-description {
         background: #fff;
@@ -2107,8 +2089,87 @@ th.apva-pvt-border {
     color: #505050;
 }
 
+.sb-api-documentation-direction-api {
+    direction: ltr !important;
+    overflow: hidden;
+    font-size: 21px;
+    color: #91258F
+}
+
+.sb-api-documentation-direction-xml {
+    direction: ltr !important;
+    overflow: hidden;
+    font-size: 21px;
+    color: red;
+}
+
+.sb-api-documentation-direction-json {
+    direction: ltr !important;
+    overflow: hidden;
+    font-size: 21px;
+    color: #6198A9
+}
+
+.ad-api-xml-json-code-black {
+    color: #000
+}
+
+.ad-api-xml-json-code-container {
+    background: #ededed;
+    padding: 16px 0;
+}
+
+.ad-api-xml-json-code {
+    overflow-y: scroll;
+    height: 385px;
+    direction: rtl;
+    width: 75%;
+    padding: 30px
+}
+
+.ad-sidebar-submenu {
+    width: 350px;
+    background: #fff;
+    top: 0;
+    left: -100%;
+    position: absolute;
+    transition: 0.4s ease;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 24px;
+}
+
+#ad-api-introduction {
+    position: relative
+}
+.ad-sidebar-submenu.show {
+    left: 0px
+}
+
+.ad-sidebar-submenu ul ul li a {
+    padding-left: 30px;
+}
+
+.ad-sidebar-submenu ul li {
+    position: relative;
+    background: #fff
+}
+
+.ad-sidebar-submenu ul li a span {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    font-size: 16px;
+    transition: transform 0.3s;
+}
+
+.ad-sidebar-submenu ul li a span.rotate {
+    transform: translateY(0%) rotate(-180deg)
+}
+
 .ad-sidebar-submenu ul {
-    list-style: none    
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .ad-sidebar-submenu ul li:hover {
@@ -2147,8 +2208,26 @@ th.apva-pvt-border {
     background: #fff
 }
 
-.ad-people-search-api-left-btn i.fa-solid.fa-square-caret-left {
+.ad-people-search-api-left-btn {
+    font-size: 50px;
+    position: absolute;
+    top: 0px;
+    left: 45px;
+    transition: 0.4s ease;
     cursor: pointer
+}
+
+.ad-people-search-api-left-btn:hover {
+    color: var(--clr-orange)
+}
+
+.ad-people-search-api-left-btn.click {
+    left: 360px
+}
+
+
+.ad-people-search-api-left-btn.click span:before {
+    content: '\f152';
 }
 
 .ad-api-documentation-table th {
@@ -2394,10 +2473,6 @@ th.apva-pvt-border {
         top: -750px;
     }
 
-    10% {
-        top: -600px;
-    }
-
     20% {
         top: -600px;
     }
@@ -2478,13 +2553,81 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
-    
+    .ad-api-xml-json-code {
+        width: 90% !important;
+    }
 
+    #ad-api-documentation-hero h1 {
+        font-size: 33px;
+    }
+
+    #ad-api-documentation-hero h2 {
+        font-size: 26px;
+    }
+
+    .ad-sidebar-submenu ul li a {
+        font-size: 18px;
+        padding: 12px;
+        font-weight: 600
+    }
+
+    .ad-people-search-api-btn-show li a {
+        font-size: 16px !important;
+        font-weight: 400 !important
+    }
+
+    .ad-sidebar-submenu ul li a span {
+        top: 17px
+    }
+
+    .ad-people-search-api-left-btn {
+        font-size: 30px
+    }
+
+    .ad-sidebar-submenu {
+        left: auto;
+        right: -100%;
+    }
+
+    .ad-sidebar-submenu.show {
+        left: auto;
+        right: 0px
+    }
+
+    .ad-people-search-api-left-btn {
+        left: auto;
+        right: 45px;
+    }
+
+    .ad-people-search-api-left-btn.click {
+        left: auto;
+        right: 360px
+    }
+
+    .ad-api-documentation-table td, .ad-api-documentation-table th {
+        display: flex;
+        flex-direction: column;
+    }
+       
     .ad-search-fees-account-setup h2 {
         font-size: 26px
     }
 
     .ad-search-fees-account-setup h3, #ad-sending-request-api h2, .api-documentation-contact-us-email a {
+        font-size: 20px
+    }
+    
+    #api-documentation-contact-us {
+        text-align: left !important
+    }
+
+    #api-documentation-contact-us img {
+        width: 100px;
+        text-align: left;
+        display: block;
+    }
+
+    .api-documentation-contact-us-email a:hover {
         font-size: 20px
     }
 
@@ -3361,6 +3504,10 @@ th.apva-pvt-border {
 
 
 @media (max-width: 768px) {
+
+    .ad-scroll-link-mobile {
+        word-break: break-all;
+    }
 
     .sb-text-slide-animation > div {
         display: inline-block;
