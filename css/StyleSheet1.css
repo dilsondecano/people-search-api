@@ -2100,18 +2100,32 @@ th.apva-pvt-border {
     direction: ltr !important;
     overflow: hidden;
     font-size: 21px;
-    color: red;
+    color: #d9474c;
 }
 
 .sb-api-documentation-direction-json {
     direction: ltr !important;
     overflow: hidden;
     font-size: 21px;
-    color: #6198A9
+    color: #3680a0;
 }
 
 .ad-api-xml-json-code-black {
-    color: #000
+    color: #31234f;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ad-api-xml-json-code-green {
+    color: #6C9D67;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ad-api-xml-json-code-blue {
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .ad-api-xml-json-code-container {
@@ -2130,8 +2144,7 @@ th.apva-pvt-border {
 .ad-sidebar-submenu {
     width: 350px;
     background: #fff;
-    top: 0;
-    left: -100%;
+    left: -350px;    
     position: absolute;
     transition: 0.4s ease;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -2142,7 +2155,11 @@ th.apva-pvt-border {
     position: relative
 }
 .ad-sidebar-submenu.show {
-    left: 0px
+    left: 0px;
+    position: relative;
+    float: left;
+    margin-right: 70px;   
+    top: 0
 }
 
 .ad-sidebar-submenu ul ul li a {
@@ -2212,7 +2229,7 @@ th.apva-pvt-border {
     font-size: 50px;
     position: absolute;
     top: 0px;
-    left: 45px;
+    left: 380px;
     transition: 0.4s ease;
     cursor: pointer
 }
@@ -2222,7 +2239,8 @@ th.apva-pvt-border {
 }
 
 .ad-people-search-api-left-btn.click {
-    left: 360px
+    
+    z-index: 999
 }
 
 
@@ -2535,6 +2553,29 @@ th.apva-pvt-border {
     text-decoration: none
 }
 
+#sb-ad-overlay {
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: 200ms ease-in-out
+}
+
+    #sb-ad-overlay.active {
+        opacity: 1;
+        pointer-events: all
+    }
+
+html.sb-ad-overlay-active, body.sb-ad-overlay-active {
+    margin: 0;
+    height: auto;
+    overflow: hidden
+}
+
 @media (max-width: 430px) {
     .sb-api-data-integration-list {
         font-size: 16px !important;        
@@ -2553,8 +2594,17 @@ th.apva-pvt-border {
 
 @media (max-width: 576px) {
 
-    .ad-api-xml-json-code {
-        width: 90% !important;
+
+    .ad-scroll-link {
+        font-size: 16px;
+    }
+
+    .sb-api-documentation-direction-api, .sb-api-documentation-direction-xml, .sb-api-documentation-direction-json {
+        font-size: 18px;
+    }
+
+    .ad-api-xml-json-code-black, .ad-api-xml-json-code-green, .ad-api-xml-json-code-blue {
+        font-size: 16px;
     }
 
     #ad-api-documentation-hero h1 {
@@ -2581,27 +2631,30 @@ th.apva-pvt-border {
     }
 
     .ad-people-search-api-left-btn {
-        font-size: 30px
+        font-size: 30px;
+        position: absolute;
+        right: 450px !important;
+        left: -36px;
     }
 
     .ad-sidebar-submenu {
         left: auto;
-        right: -100%;
+        top: 0;
+        right: -350px;
+        position: absolute;
     }
 
     .ad-sidebar-submenu.show {
         left: auto;
-        right: 0px
-    }
-
-    .ad-people-search-api-left-btn {
-        left: auto;
-        right: 45px;
-    }
-
+        right: 0px;
+        position: absolute;
+        float: none;
+        margin-right: 0px;
+    }   
+    
     .ad-people-search-api-left-btn.click {
         left: auto;
-        right: 360px
+        right: 360px !important;
     }
 
     .ad-api-documentation-table td, .ad-api-documentation-table th {
@@ -2812,7 +2865,6 @@ th.apva-pvt-border {
         margin: 2px;
     }
 
-
     .sb-table-mobile-result {
         background: #fff;
         border: 1px solid var(--clr-orange);
@@ -2839,7 +2891,6 @@ th.apva-pvt-border {
         color: var(--clr-orange);
         text-align: left
     }
-
 
     #stsa-hero h3 {
         font-size: 33px;
@@ -2872,7 +2923,6 @@ th.apva-pvt-border {
         margin: 2px
     }
 
-
     .psa-amreh-title {
         background: var(--clr-orange);
         border-radius: 6px;
@@ -2901,10 +2951,8 @@ th.apva-pvt-border {
 
     #psa-people-search-api-list #psa-find-name-address,
     #psa-people-search-api-list #psa-find-email-address,
-    #psa-people-search-api-list #psa-property-records {
-        
+    #psa-people-search-api-list #psa-property-records {       
         margin-top: 50px !important;
-
     }
 
     .mt-mobile {
@@ -2924,7 +2972,6 @@ th.apva-pvt-border {
     #ao-use-batch-append-tool img {
         display: none
     }
-
 
     .ao-brand-customers-partners-mobile {
         display: flex;
@@ -2954,7 +3001,6 @@ th.apva-pvt-border {
             width: 150px
     }
 
-
     #ao-features-benefits h3 {
             font-size: 16px;
             font-weight: 400;            
@@ -2962,47 +3008,45 @@ th.apva-pvt-border {
 
     #ao-features-benefits img {
             height: 120px;
-        }
+    }
 
-        #ao-features-benefits h2 {
-            font-size: 26px;
+    #ao-features-benefits h2 {
+        font-size: 26px;
+    }
 
-        }
+    #api-overview-testimonials .owl-carousel .owl-prev {
+        left: -12px;
+    }
 
-        #api-overview-testimonials .owl-carousel .owl-prev {
-            left: -12px;
-        }
+    #api-overview-testimonials .owl-carousel .owl-next {
+        right: -12px;
+    }
 
-        #api-overview-testimonials .owl-carousel .owl-next {
-            right: -12px;
-        }
+    #api-overview-testimonials .ao-testimonials-image {
+        width: 100px;
+    }
 
+    #api-overview-testimonials {
+        font-size: 16px;
+    }
 
-        #api-overview-testimonials .ao-testimonials-image {
-            width: 100px;
-        }
+    #ao-watch-videos #img-watch-videos {
+        width: 370px !important
+    }
 
-        #api-overview-testimonials {
-            font-size: 16px;
-        }
+    #ao-watch-videos h2 {
+        font-size: 26px;
+    }
+    
+    #ao-watch-videos #ao-youtube-play-icon {
+        width: 120px !important;
+        top: 25%;
 
+    }
 
-        #ao-watch-videos #img-watch-videos {
-            width: 370px !important
-        }
-
-        #ao-watch-videos h2 {
-            font-size: 26px;
-        }
-
-        #ao-watch-videos #ao-youtube-play-icon {
-            width: 120px !important;
-            top: 25%;
-        }
-
-        #ao-watch-videos .row.orange-border {
-            padding: 30px 10px 0 10px;
-        }
+    #ao-watch-videos .row.orange-border {
+        padding: 30px 10px 0 10px;
+    }
 
         .sb-how-do-get-access-api h2 {
             font-size: 26px;
@@ -3592,7 +3636,10 @@ th.apva-pvt-border {
 
 @media (max-width: 991px) {
 
- 
+    .ad-api-xml-json-code {
+        width: 98% !important;
+    }
+    
     #stsa-estimate-your-cost .stsa-api-type {
         flex-direction: column;
     }
