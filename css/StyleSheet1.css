@@ -17,6 +17,10 @@
     color: #505050;
 }
 
+pre.sb-api-documentation-direction-api {
+    overflow: auto;
+}
+
 .sb-carousel .sb-carousel-card {
     display: flex;
     flex-direction: column;
