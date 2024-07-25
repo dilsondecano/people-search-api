@@ -288,6 +288,37 @@ pre.sb-api-documentation-direction-api {
     background-size: cover
 }
 
+#people-search-api-list {
+    background: #ededed
+}
+
+#people-search-api-list .card-title {
+    font-size: 21px;
+    color: #505050;
+    font-weight: 600
+}
+
+#people-search-api-list p {
+    font-size: 18px;
+    color: #6f6f6d;
+    line-height: 1.5
+}
+
+#people-search-api-list a {
+    color: #ee8a1d;
+    font-weight: 700
+}
+
+#people-search-api-list a:hover {
+    text-decoration: underline
+}
+
+#people-search-api-list .card {
+    margin-top: 12px;
+    border-radius: 16px;
+    border: none
+}
+
 #psa-nav-bar {
     gap: 54px;
     list-style: none;
