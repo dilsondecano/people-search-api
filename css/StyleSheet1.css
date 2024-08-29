@@ -2638,7 +2638,7 @@ html.sb-ad-overlay-active, body.sb-ad-overlay-active {
 @media (max-width: 576px) {
 
 .mobile-margin-top {
-	margin-top: 10px;
+	margin-top: 16px;
 }
     .ad-scroll-link {
         font-size: 16px;
