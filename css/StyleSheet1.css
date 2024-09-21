@@ -36,6 +36,242 @@ pre.sb-api-documentation-direction-api {
     font-weight: 700;
 }
 
+/* COMPONENT: Lookups */
+
+.lookup-form {
+    border: 4px solid #ee8a1d;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+    .lookup-form p {
+        font-size: 20px;
+        color: #505050
+    }
+
+    .lookup-form span {
+        color: #ee8a1d
+    }
+
+    .lookup-form h2 {
+        font-size: 27px;
+        color: #505050;
+        font-weight: 700;
+        margin-top: 50px
+    }
+
+.reverse-phone-lookup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #505050;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.reverse-phone-lookup-form input[type=text] {
+    border-radius: 12px;
+    padding: 6px 120px;
+    max-width: 100%;
+}
+
+.reverse-phone-lookup-form ::placeholder {
+    color: #d9d9d8;
+    font-weight: 700;
+    font-size: 20px
+}
+
+
+.reverse-phone-lookup-form input[type=submit] {
+    color: #fff;
+    font-size: 20px;
+    background: #ee8a1d;
+    padding: 9px 50px;
+    border-radius: 12px;
+    border: none;    
+}
+
+.lookup-form-sample-results {
+    text-decoration: underline
+}
+
+.lookup-heading h1 {
+    color: #ee8a1d;
+    font-size: 73px;
+    font-weight: 700;
+    margin-bottom: 30px
+}
+
+.lookup-heading h2 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+#lookup-cta {
+    background: rgb(255,223,129);
+    background: linear-gradient(90deg, rgba(255,223,129,1) 0%, rgba(255,174,60,1) 100%);
+    padding-top: 30px
+}
+
+#lookup-cta h2 {
+    color: #373737;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 30px
+}
+
+#lookup-cta a {
+    color: #fff;
+    font-size: 20px;
+    background: #ee8a1d;
+    padding: 12px 30px;
+    border-radius: 12px
+}
+
+#lookup-cta .row .col-md-9 {
+    margin-top: 40px;
+}
+
+.lookup-faq {
+    background: #f2f2f2;
+    border-radius: 30px;
+    padding: 36px;
+}
+
+.lookup-faq h2 {
+    font-size: 47px;
+    color: #505050;
+    font-weight: 700
+}
+
+.lookup-consider {
+    background: rgb(255,223,129);
+    background: linear-gradient(90deg, rgba(255,223,129,1) 0%, rgba(255,174,60,1) 100%);
+    position: relative;
+    z-index: 1
+}
+
+.lookup-consider h2 {
+    font-size: 27px;
+    color: #373737;
+    font-weight: 700;
+    margin-bottom: 30px
+}
+.lookup-consider .column-one {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.lookup-consider .column-one h3 {
+    color: #ee8a1d;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center
+}
+
+.lookup-consider .column-one p {
+    color: #505050;
+    font-size: 20px;   
+    margin-top: 30px
+}
+
+.lookup-consider .column-two h3 {
+    background: #ee8a1d;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    padding: 60px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.lookup-consider .column-three img {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    z-index: -1;
+}
+
+
+.lookup-accordion li {
+    list-style: none;
+}
+
+.lookup-accordion li label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 27px;
+    color: #505050;
+    font-weight: 700;
+    padding:inherit
+}
+
+.lookup-accordion li label:before {
+    content: '+';
+    font-size: 24px;
+    font-weight: 700
+}
+
+.lookup-accordion li input[type="radio"] {
+    display: none
+}
+
+.lookup-accordion .lookup-accordion-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s
+
+}
+
+.lookup-accordion input[type="radio"]:checked + label + .lookup-accordion-content {
+    max-height: 100%
+}
+
+
+
+
+
+.item2 {
+    grid-area: two;
+}
+
+.item3 {
+    grid-area: three;
+}
+
+.itemone {
+    grid-area: one;
+}
+
+.item5 {
+    grid-area: four;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+
+        'one one two two three three'
+        'one one two two four four';
+    gap: 10px;
+
+    padding: 10px;
+}
+
+    .grid-container > div {
+        background-color: #EE8A1D;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
 
 /* COMPONENT: Card Carousel */
 
