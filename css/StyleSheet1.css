@@ -3915,6 +3915,10 @@ html.sb-ad-overlay-active, body.sb-ad-overlay-active {
 
 @media (max-width: 991px) {
 
+	.reverse-phone-lookup-form {
+    flex-direction: column
+}
+
     .ad-api-xml-json-code {
         width: 98% !important;
     }
