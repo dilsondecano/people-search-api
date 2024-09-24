@@ -111,20 +111,20 @@ pre.sb-api-documentation-direction-api {
     
 }
 
-#lookup-cta {
+.lookup-cta {
     background: rgb(255,223,129);
     background: linear-gradient(90deg, rgba(255,223,129,1) 0%, rgba(255,174,60,1) 100%);
     padding-top: 30px
 }
 
-#lookup-cta h2 {
+.lookup-cta h2 {
     color: #373737;
     font-size: 27px;
     font-weight: 700;
     margin-bottom: 30px
 }
 
-#lookup-cta a {
+.lookup-cta a {
     color: #fff;
     font-size: 20px;
     background: #ee8a1d;
@@ -132,7 +132,7 @@ pre.sb-api-documentation-direction-api {
     border-radius: 12px
 }
 
-#lookup-cta .row .col-md-9 {
+.lookup-cta .row .col-md-9 {
     margin-top: 40px;
 }
 
