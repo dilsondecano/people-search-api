@@ -38,27 +38,27 @@ pre.sb-api-documentation-direction-api {
 
 /* COMPONENT: Lookups */
 
-.lookup-form {
+.lookup-form > div {
     border: 4px solid #ee8a1d;
     border-radius: 30px;
     padding: 50px;
 }
 
-    .lookup-form p {
-        font-size: 20px;
-        color: #505050
-    }
+.lookup-form p {
+    font-size: 20px;
+    color: #505050
+}
 
-    .lookup-form span {
-        color: #ee8a1d
-    }
+.lookup-form span {
+    color: #ee8a1d
+}
 
-    .lookup-form h2 {
-        font-size: 27px;
-        color: #505050;
-        font-weight: 700;
-        margin-top: 50px
-    }
+.lookup-form h2 {
+    font-size: 27px;
+    color: #505050;
+    font-weight: 700;
+    margin-top: 50px
+}
 
 .reverse-phone-lookup-form {
     display: flex;
@@ -74,6 +74,7 @@ pre.sb-api-documentation-direction-api {
     border-radius: 12px;
     padding: 6px 120px;
     max-width: 100%;
+    width: 100%
 }
 
 .reverse-phone-lookup-form ::placeholder {
@@ -199,45 +200,6 @@ pre.sb-api-documentation-direction-api {
 }
 
 
-.lookup-accordion li {
-    list-style: none;
-}
-
-.lookup-accordion li label {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    font-size: 27px;
-    color: #505050;
-    font-weight: 700;
-    padding:inherit
-}
-
-.lookup-accordion li label:before {
-    content: '+';
-    font-size: 24px;
-    font-weight: 700
-}
-
-.lookup-accordion li input[type="radio"] {
-    display: none
-}
-
-.lookup-accordion .lookup-accordion-content {
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.5s
-
-}
-
-.lookup-accordion input[type="radio"]:checked + label + .lookup-accordion-content {
-    max-height: 100%
-}
-
-
-
-
-
 .item2 {
     grid-area: two;
 }
@@ -272,6 +234,42 @@ pre.sb-api-documentation-direction-api {
         font-size: 30px;
     }
 
+.lookup-faq .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='' class='bi bi-arrow-right-circle-fill' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z'/%3E%3C/svg%3E");
+    position: absolute;
+    left: -10px;
+    
+}
+
+.lookup-faq .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='' class='bi bi-arrow-up-circle-fill' viewBox='0 0 16 16'%3E%3Cpath d='M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z'/%3E%3C/svg%3E");
+    position: absolute;
+    left: -10px;
+}
+
+.lookup-faq button.accordion-button {
+    font-size: 27px;
+    color: #505050;
+    font-weight: 400;
+    background: #F2F2F2;
+
+}
+
+.lookup-faq .accordion-button:not(.collapsed) {
+    font-weight: 700;
+}
+
+.lookup-faq .accordion-item {
+    border: none
+}
+
+.lookup-faq .accordion-button:not(.collapsed) {
+    background: #F2F2F2
+}
+
+.lookup-faq .accordion-body {
+    background: #F2F2F2
+}
 
 /* COMPONENT: Card Carousel */
 
@@ -3827,6 +3825,12 @@ html.sb-ad-overlay-active, body.sb-ad-overlay-active {
 
 
 @media (max-width: 768px) {
+
+	.lookup-yt-player {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+}
 
     .ad-scroll-link-mobile {
         word-break: break-all;
