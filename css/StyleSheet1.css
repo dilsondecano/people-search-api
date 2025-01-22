@@ -2920,7 +2920,8 @@ html.sb-ad-overlay-active, body.sb-ad-overlay-active {
         left: auto;
         top: 0;
         right: -350px;
-        position: absolute;
+        position: fixed;
+	    top: 40%
     }
 
     .ad-sidebar-submenu.show {
