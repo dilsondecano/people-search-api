@@ -2422,7 +2422,7 @@ th.apva-pvt-border {
     width: 350px;
     background: #fff;
     left: -350px;    
-    position: absolute;
+    position: fixed;
     transition: 0.4s ease;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 24px;
@@ -2433,8 +2433,8 @@ th.apva-pvt-border {
 }
 .ad-sidebar-submenu.show {
     left: 0px;
-    position: relative;
-    float: left;
+    position: fixed;
+    // float: left;
     margin-right: 70px;   
     top: 0
 }
@@ -2926,9 +2926,10 @@ html.sb-ad-overlay-active, body.sb-ad-overlay-active {
     .ad-sidebar-submenu.show {
         left: auto;
         right: 0px;
-        position: absolute;
-        float: none;
+        position: fixed;
+        //float: none;
         margin-right: 0px;
+	    top: 30$
     }   
     
     .ad-people-search-api-left-btn.click {
